@@ -1,0 +1,13 @@
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+assets/
+.obsidian/
+node_modules/
+.trash/

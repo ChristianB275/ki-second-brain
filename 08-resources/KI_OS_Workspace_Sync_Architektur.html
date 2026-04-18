@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KI OS — Workspace-Sync-Architektur — KI-BBI Schulungsunterlage</title>
+  <style>
+    :root {
+      --primary: #c9a227;
+      --secondary: #8a9bc9;
+      --dark: #0f1e5a;
+      --bg: #f5f5f5;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; color: #1a1a1a; background: var(--bg); display: flex; margin: 0; }
+    .sidebar { width: 240px; flex-shrink: 0; background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 100%); color: #cdd3d9; position: fixed; top: 0; left: 0; bottom: 0; overflow-y: auto; z-index: 100; transition: transform 0.3s; border-right: 1px solid rgba(201,162,39,0.2); }
+    .sidebar-logo { padding: 1.25rem 1.5rem; border-bottom: 3px solid var(--primary); background: rgba(201,162,39,0.1); }
+    .sidebar-logo h1 { font-size: 1rem; color: #fff; font-weight: 700; }
+    .sidebar-logo p { font-size: 0.75rem; color: var(--secondary); margin-top: 2px; }
+    .nav-group { padding: 0.5rem 0; border-bottom: 1px solid rgba(201,162,39,0.1); }
+    .nav-group-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--secondary); padding: 0.6rem 1.5rem 0.3rem; font-weight: 600; }
+    .nav-link { display: block; padding: 0.45rem 1.5rem; color: #b0bac4; text-decoration: none; font-size: 0.875rem; transition: all 0.15s; border-left: 3px solid transparent; }
+    .nav-link:hover { color: #fff; background: rgba(201,162,39,0.08); border-left-color: var(--primary); }
+    .nav-link.active { color: #fff; background: rgba(201,162,39,0.2); border-left-color: var(--primary); }
+    .main { margin-left: 240px; flex: 1; min-width: 0; }
+    .page-header { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 50%, #162570 100%); border-bottom: 3px solid #c9a227; padding: 0; }
+    .page-header-top { display: flex; justify-content: space-between; align-items: center; padding: 10px 32px 0 32px; font-size: 11px; color: #c9a227; letter-spacing: 0.06em; text-transform: uppercase; }
+    .page-header-logo { display: flex; justify-content: center; align-items: center; padding: 20px 0; }
+    .page-header-logo img { height: 80px; width: auto; }
+    .header-divider { height: 1px; background: linear-gradient(90deg, transparent 0%, #c9a227 30%, #e8c96a 50%, #c9a227 70%, transparent 100%); margin: 0 32px; }
+    .container { max-width: 1000px; margin: 40px auto; padding: 0 24px 60px; }
+    .title-block { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 60%, #162570 100%); border: 1px solid #c9a227; border-top: 4px solid #c9a227; color: #fff; border-radius: 10px; padding: 36px 40px; margin-bottom: 36px; box-shadow: 0 4px 16px rgba(201,162,39,0.15); }
+    .title-block .label { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #c9a227; margin-bottom: 10px; }
+    .title-block h1 { font-size: 24px; font-weight: 700; margin-bottom: 10px; line-height: 1.3; color: #ffffff; }
+    .title-block .meta { font-size: 13px; color: #8a9bc9; display: flex; gap: 24px; flex-wrap: wrap; margin-top: 16px; border-top: 1px solid rgba(201,162,39,0.3); padding-top: 14px; }
+    .title-block .meta span { display: flex; align-items: center; gap: 6px; }
+    .lernziele { background: #e8f5e9; border-left: 4px solid #43a047; border-radius: 0 6px 6px 0; padding: 16px 20px; margin-bottom: 32px; }
+    .lernziele h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: #2e7d32; margin-bottom: 10px; }
+    .lernziele ul { list-style: none; padding: 0; }
+    .lernziele ul li { font-size: 13px; color: #1b5e20; padding: 3px 0; }
+    .lernziele ul li::before { content: "\2713  "; color: #43a047; font-weight: bold; }
+    h2 { font-size: 17px; font-weight: 700; color: #0f1e5a; margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 3px solid #c9a227; }
+    h3 { font-size: 14px; font-weight: 600; color: #2d3748; margin: 20px 0 8px; }
+    h4 { font-size: 13px; font-weight: 600; color: #4a5568; margin: 14px 0 6px; }
+    p { font-size: 13px; line-height: 1.7; color: #2d3748; margin-bottom: 10px; }
+    ul.content-list { padding-left: 0; list-style: none; margin-bottom: 14px; }
+    ul.content-list li { font-size: 13px; color: #4a5568; padding: 4px 0; padding-left: 16px; position: relative; line-height: 1.6; }
+    ul.content-list li::before { content: "\25B8  "; color: #c9a227; position: absolute; left: 0; }
+    .modul-card { background: #fff; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin-bottom: 24px; overflow: hidden; border: 1px solid #e8e0c8; }
+    .modul-header { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 100%); border-bottom: 2px solid #c9a227; color: #fff; padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
+    .modul-header .modul-title { font-size: 15px; font-weight: 600; color: #fff; }
+    .modul-header .modul-badge { font-size: 12px; background: rgba(201,162,39,0.25); border: 1px solid rgba(201,162,39,0.5); color: #e8c96a; padding: 3px 10px; border-radius: 10px; }
+    .modul-body { padding: 18px 20px; }
+    .lektion-list { list-style: none; padding: 0; }
+    .lektion-list li { font-size: 13px; color: #4a5568; padding: 7px 0; border-bottom: 1px solid #f0f0f0; display: flex; align-items: flex-start; gap: 10px; }
+    .lektion-list li:last-child { border-bottom: none; }
+    .lektion-num { font-size: 11px; color: #c9a227; min-width: 26px; padding-top: 1px; font-weight: 600; }
+    .lektion-text { flex: 1; line-height: 1.5; }
+    .lektion-desc { font-size: 12px; color: #718096; margin-top: 4px; display: block; }
+    .begriffe-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin: 14px 0 24px; }
+    .begriff-card { background: #fff; border: 1px solid #e2e8f0; border-top: 3px solid #c9a227; border-radius: 6px; padding: 12px 14px; }
+    .begriff-card .term { font-size: 13px; font-weight: 700; color: #0f1e5a; margin-bottom: 4px; }
+    .begriff-card .def { font-size: 12px; color: #718096; line-height: 1.5; }
+    table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.07); margin: 14px 0 24px; }
+    thead tr { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 100%); }
+    thead th { padding: 10px 14px; text-align: left; font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: #c9a227; border-bottom: 2px solid #c9a227; }
+    tbody tr { border-bottom: 1px solid #eee; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #fdf9ee; }
+    tbody td { padding: 9px 14px; vertical-align: top; font-size: 13px; line-height: 1.5; }
+    .note-box { background: #fdf9ee; border-left: 4px solid #c9a227; border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13px; color: #5a4a00; margin: 14px 0; line-height: 1.6; }
+    .warning-box { background: #fff3e0; border-left: 4px solid #e65100; border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13px; color: #7c2d00; margin: 14px 0; line-height: 1.6; }
+    .info-box { background: #f0f4ff; border-left: 4px solid #4f46e5; border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13px; color: #312e81; margin: 14px 0; line-height: 1.6; }
+    .success-box { background: #e8f5e9; border-left: 4px solid #43a047; border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13px; color: #1b5e20; margin: 14px 0; line-height: 1.6; }
+    .zusammenfassung { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 100%); border: 1px solid #c9a227; color: #e2e8f0; border-radius: 8px; padding: 24px 28px; margin-top: 36px; }
+    .zusammenfassung h3 { color: #c9a227; font-size: 15px; margin-bottom: 14px; }
+    .zusammenfassung ul { list-style: none; padding: 0; }
+    .zusammenfassung ul li { font-size: 13px; padding: 4px 0; color: #a0aec0; }
+    .zusammenfassung ul li::before { content: "\2192  "; color: #c9a227; }
+    .step-list { counter-reset: steps; list-style: none; padding: 0; margin: 10px 0; }
+    .step-list li { counter-increment: steps; font-size: 13px; color: #4a5568; padding: 6px 0 6px 36px; border-bottom: 1px dashed #e2e8f0; position: relative; line-height: 1.6; }
+    .step-list li:last-child { border-bottom: none; }
+    .step-list li::before { content: counter(steps); position: absolute; left: 0; top: 6px; background: #0f1e5a; color: #c9a227; font-size: 11px; font-weight: 700; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 14px 0 20px; }
+    .pros { background: #e8f5e9; border: 1px solid #a5d6a7; border-radius: 6px; padding: 14px; }
+    .cons { background: #ffebee; border: 1px solid #ef9a9a; border-radius: 6px; padding: 14px; }
+    .pros h4 { color: #2e7d32; margin-bottom: 8px; }
+    .cons h4 { color: #c62828; margin-bottom: 8px; }
+    .pros ul, .cons ul { list-style: none; padding: 0; }
+    .pros ul li { font-size: 12px; color: #1b5e20; padding: 3px 0; }
+    .pros ul li::before { content: "\2713  "; color: #43a047; font-weight: bold; }
+    .cons ul li { font-size: 12px; color: #7f0000; padding: 3px 0; }
+    .cons ul li::before { content: "\2717  "; color: #e53935; font-weight: bold; }
+    .hw-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 14px 0 20px; }
+    .hw-card { border-radius: 6px; padding: 14px 16px; }
+    .hw-card.emp { background: #e8f5e9; border: 1px solid #a5d6a7; }
+    .hw-card.warn { background: #fff3e0; border: 1px solid #ffcc80; }
+    .hw-card h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .hw-card.emp h4 { color: #1b5e20; }
+    .hw-card.warn h4 { color: #bf360c; }
+    .hw-card p { font-size: 12px; color: #4a5568; line-height: 1.7; }
+    .hw-card ul { list-style: none; padding: 0; margin-top: 6px; }
+    .hw-card ul li { font-size: 12px; color: #4a5568; padding: 2px 0; }
+    .hw-card ul li::before { content: "\2022  "; color: #c9a227; }
+    code { background: #f0f0f0; border: 1px solid #ddd; border-radius: 3px; padding: 1px 6px; font-family: "SF Mono", "Courier New", monospace; font-size: 12px; color: #c0392b; }
+    pre { background: #1a1a2e; border-radius: 6px; padding: 14px 18px; margin: 10px 0 16px; overflow-x: auto; }
+    pre code { background: none; border: none; color: #e8c96a; font-size: 12px; line-height: 1.6; }
+    .checklist { list-style: none; padding: 0; margin: 10px 0; }
+    .checklist li { font-size: 13px; color: #4a5568; padding: 4px 0; display: flex; gap: 8px; align-items: flex-start; line-height: 1.5; }
+    .checklist li::before { content: "\2610"; color: #c9a227; font-size: 14px; flex-shrink: 0; }
+    .diagram { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; margin: 18px 0; font-family: "SF Mono", "Courier New", monospace; font-size: 12px; line-height: 1.8; color: #2d3748; white-space: pre; overflow-x: auto; }
+    .diagram .arrow { color: #c9a227; font-weight: bold; }
+    .diagram .label { color: #0f1e5a; font-weight: 600; }
+    .diagram .desc { color: #718096; font-style: italic; }
+    .page-footer { background: linear-gradient(135deg, #0a1640 0%, #0f1e5a 50%, #162570 100%); border-top: 3px solid #c9a227; padding: 0; margin-top: 48px; }
+    .footer-divider { height: 1px; background: linear-gradient(90deg, transparent 0%, #c9a227 30%, #e8c96a 50%, #c9a227 70%, transparent 100%); margin: 0 32px; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; padding: 14px 32px; }
+    .footer-logo { display: flex; align-items: center; gap: 10px; }
+    .footer-brand { font-size: 13px; font-weight: 700; color: #c9a227; letter-spacing: 0.06em; }
+    .footer-brand span { display: block; font-size: 10px; font-weight: 400; color: #8a9bc9; letter-spacing: 0.1em; text-transform: uppercase; }
+    .footer-meta { text-align: right; font-size: 11px; color: #8a9bc9; line-height: 1.8; }
+    .footer-meta strong { color: #c9a227; }
+    .footer-legal { text-align: center; font-size: 10px; color: #4a5568; padding: 8px 32px 14px; border-top: 1px solid rgba(201,162,39,0.2); }
+    @media (max-width: 768px) { .sidebar { transform: translateX(-100%); } .main { margin-left: 0; } .hw-grid-2 { grid-template-columns: 1fr; } .pros-cons { grid-template-columns: 1fr; } }
+  </style>
+<script type='text/javascript' src='https://assets.skool.com/4ZTudsBdSVuK5MQVIXQtfH4J65AjSsEc7mhiYo6lRqwQETU2Od_rXtA1JjsT2lLSSYt3OLuiyFm_8FLO2b1HN0kOsXNy14y7sYbUvfYGQ2h6OVQcEaP3S2ZwL2kv4YEXiUcdau4sOMR38XzDMMqctCHTdJBZj-vrRrh5jWyJP8Ba3S-lyI3hBMNIaRHDLUf7fwnrzVCgjc3yeHwf2mSjLoVETp-mMj2moXYmV6J7uGh-GQ-qAk4OWT6qOeK3CJdeWth8KXTvi0X73dPd8eVhqluFyJmYMJRUKBbi2H7t2n5nlMBGP-6yF4Duk0FiTXhOpXP_82GaRF6Fu5kwuTDXiokhLuaWQX-KPBAN604gEVyWCoedBuP1tqnmcMd6WCmcjeYN2iZfNTxVQgGuL37-9jTa2ygbUphdZBOZi4VSHFj1dT-r6gNgKoSeTXGTJiFWQeQbS9BI9Q_Hxo1DH6_x2CqZzJ-sVcYCx7d7MdoK4tBSZp2OElqTAO9XnVjJEFYtqqLfXPNxlGupWoDCVh8_9IL7d8uklXQSVyaLLU8HZW3Z04uz1HA0NoZAjDiypQzyA7VpliYAnfW2cSs'></script></head>
+<body>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <h1>KI-BBI</h1>
+    <p>Schulungsunterlagen 2026</p>
+  </div>
+  <div class="nav-group">
+    <div class="nav-group-label">Grundlagen</div>
+    <a href="#intro" class="nav-link active">Das Problem</a>
+    <a href="#goals" class="nav-link">Lernziele</a>
+    <a href="#architektur" class="nav-link">Architektur</a>
+  </div>
+  <div class="nav-group">
+    <div class="nav-group-label">Mechanismen</div>
+    <a href="#status-yaml" class="nav-link">status.yaml</a>
+    <a href="#sync-script" class="nav-link">Sync-Script</a>
+    <a href="#git-pipeline" class="nav-link">Git-Pipeline</a>
+    <a href="#server-sync" class="nav-link">Server-Sync</a>
+  </div>
+  <div class="nav-group">
+    <div class="nav-group-label">Ablauf</div>
+    <a href="#session-start" class="nav-link">Session-Start</a>
+    <a href="#arbeiten" class="nav-link">Arbeiten</a>
+    <a href="#session-ende" class="nav-link">Session-Ende</a>
+  </div>
+  <div class="nav-group">
+    <div class="nav-group-label">Abschluss</div>
+    <a href="#vorher-nachher" class="nav-link">Vorher / Nachher</a>
+    <a href="#glossar" class="nav-link">Glossar</a>
+    <a href="#summary" class="nav-link">Zusammenfassung</a>
+  </div>
+</nav>
+
+<div class="main">
+  <div class="page-header">
+    <div class="page-header-top">
+      <span>Schulungsunterlagen KI-BBI</span>
+      <span>&copy; 2026 KI-BBI &mdash; Alle Rechte vorbehalten</span>
+    </div>
+    <div class="page-header-logo"></div>
+    <div class="header-divider"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- TITEL -->
+    <div class="title-block" id="intro">
+      <div class="label">KI-BBI Schulungsunterlage</div>
+      <h1>KI OS &mdash; Workspace-Sync-Architektur</h1>
+      <div class="meta">
+        <span>Stand: 17. April 2026</span>
+        <span>Version: 1.0</span>
+        <span>KI-Modell: Claude Opus 4.6</span>
+        <span>Zielgruppe: KI-Anwender mit Claude Code Erfahrung</span>
+      </div>
+    </div>
+
+    <!-- LERNZIELE -->
+    <div class="lernziele" id="goals">
+      <h3>Lernziele</h3>
+      <ul>
+        <li>Verstehen, warum ein KI-Betriebssystem (KI OS) und Workspaces ohne Sync-Mechanismus auseinanderdriften</li>
+        <li>Die Architektur der bidirektionalen Synchronisation zwischen KI OS und Workspaces kennen</li>
+        <li>Die vier Sync-Mechanismen (status.yaml, sync-brain.sh, Git-Pipeline, Server-Cron) im Detail verstehen</li>
+        <li>Den vollstaendigen Session-Ablauf von Start bis Shutdown nachvollziehen koennen</li>
+      </ul>
+    </div>
+
+    <!-- DAS PROBLEM -->
+    <h2 id="problem">Das Problem: Drift zwischen Wissen und Arbeit</h2>
+
+    <p>Wer mit Claude Code arbeitet, hat typischerweise zwei Ebenen:</p>
+
+    <div class="hw-grid-2">
+      <div class="hw-card emp">
+        <h4>KI OS (das Gehirn)</h4>
+        <ul>
+          <li>Obsidian Vault mit Strategie, Prioritaeten, Projekt-Stubs</li>
+          <li>Weiss, welche Projekte existieren und wie ihr Status ist</li>
+          <li>Fuehrt Daily Logs, Open Loops, Entscheidungen</li>
+          <li>Dient als Startpunkt jeder Session</li>
+        </ul>
+      </div>
+      <div class="hw-card warn">
+        <h4>Workspaces (die Arbeit)</h4>
+        <ul>
+          <li>Einzelne Projektverzeichnisse mit Code, Configs, Docs</li>
+          <li>Hier passiert die eigentliche Arbeit</li>
+          <li>Status aendert sich bei jeder Session</li>
+          <li>Haben keine Verbindung zurueck zum KI OS</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="warning-box">
+      <strong>Das Kernproblem:</strong> Wenn in einem Workspace gearbeitet wird, aktualisiert sich der KI-OS-Projektstub nicht automatisch. Nach wenigen Sessions ist das KI OS komplett veraltet &mdash; es behauptet z.B. ein Projekt sei bei Phase 1, waehrend der Workspace laengst bei Phase 6 steht.
+    </div>
+
+    <h3>Beispiel: Drift in der Praxis</h3>
+
+    <p>Ein Anwender hat ein Server-Projekt mit 7 Phasen. Nach drei intensiven Arbeitssessions im Workspace:</p>
+
+    <table>
+      <thead>
+        <tr><th>Quelle</th><th>Status</th><th>Fortschritt</th><th>Naechster Schritt</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>KI OS (Projekt-Stub)</td><td>gelb</td><td>10%</td><td>Phase 1 abschliessen</td></tr>
+        <tr><td>Workspace (tatsaechlich)</td><td>gruen</td><td>85%</td><td>Nur noch 2 Restpunkte</td></tr>
+      </tbody>
+    </table>
+
+    <p>Das KI OS ist um 6 Phasen veraltet. Jede Session, die mit <code>/start</code> beginnt, arbeitet mit falschen Informationen.</p>
+
+    <!-- ARCHITEKTUR -->
+    <h2 id="architektur">Die Loesung: Bidirektionaler Sync</h2>
+
+    <p>Die Architektur verbindet vier Komponenten zu einem geschlossenen Kreislauf:</p>
+
+    <div class="diagram"><span class="label">Workspace</span> (status.yaml)     <span class="desc">&larr; wird beim Arbeiten aktualisiert</span>
+        <span class="arrow">&darr;</span>
+<span class="label">sync-brain.sh</span>              <span class="desc">&larr; liest alle status.yaml, erkennt Drift</span>
+        <span class="arrow">&darr;</span>
+<span class="label">KI OS Stubs</span> (04-projects/) <span class="desc">&larr; werden bei /start automatisch abgeglichen</span>
+        <span class="arrow">&darr;</span>
+<span class="label">git push</span> (bei /shutdown)    <span class="desc">&larr; KI OS nach GitHub</span>
+        <span class="arrow">&darr;</span>
+<span class="label">Server Cron</span> (*/15 min)     <span class="desc">&larr; pullt automatisch von GitHub</span></div>
+
+    <div class="info-box">
+      <strong>Prinzip:</strong> Die <code>status.yaml</code> im Workspace ist die Single Source of Truth. Das KI OS liest diese Quelle und aktualisiert sich selbst. Nicht umgekehrt.
+    </div>
+
+    <!-- MECHANISMUS 1: STATUS.YAML -->
+    <h2 id="status-yaml">Mechanismus 1: status.yaml</h2>
+
+    <p>Jeder Workspace bekommt eine <code>status.yaml</code> im Root-Verzeichnis. Diese Datei enthaelt genau die Felder, die das KI OS fuer seinen Projektstub braucht:</p>
+
+    <pre><code>projekt: webshop-relaunch
+status: gelb
+fortschritt: 45
+letztes-update: 2026-04-17
+naechster-schritt: "Payment-Integration testen"
+meilensteine:
+  - name: "Grundgeruest"
+    status: gruen
+  - name: "Produktkatalog"
+    status: gruen
+  - name: "Payment-Integration"
+    status: gelb
+  - name: "Go-Live"
+    status: rot</code></pre>
+
+    <h3>Felder im Detail</h3>
+
+    <table>
+      <thead>
+        <tr><th>Feld</th><th>Typ</th><th>Beschreibung</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><code>projekt</code></td><td>String</td><td>Eindeutiger Projektname in kebab-case &mdash; muss mit dem KI-OS-Stub uebereinstimmen</td></tr>
+        <tr><td><code>status</code></td><td>Enum</td><td><code>rot</code> (Blocker), <code>gelb</code> (in Arbeit), <code>gruen</code> (laeuft/fertig)</td></tr>
+        <tr><td><code>fortschritt</code></td><td>0&ndash;100</td><td>Geschaetzter Gesamtfortschritt in Prozent</td></tr>
+        <tr><td><code>letztes-update</code></td><td>Datum</td><td>Wann wurde zuletzt im Workspace gearbeitet</td></tr>
+        <tr><td><code>naechster-schritt</code></td><td>String</td><td>Einzeiler: was als naechstes ansteht</td></tr>
+        <tr><td><code>meilensteine</code></td><td>Liste</td><td>Jeder Meilenstein mit Name und Ampel-Status</td></tr>
+      </tbody>
+    </table>
+
+    <div class="note-box">
+      <strong>Wann wird status.yaml aktualisiert?</strong> Am Ende jeder Workspace-Session &mdash; entweder manuell oder durch Claude beim Session-Shutdown. Der KI-Assistent schlaegt Aenderungen vor, der Anwender bestaetigt.
+    </div>
+
+    <!-- MECHANISMUS 2: SYNC-SCRIPT -->
+    <h2 id="sync-script">Mechanismus 2: sync-brain.sh</h2>
+
+    <p>Ein Shell-Script im KI OS liest alle <code>status.yaml</code>-Dateien aus den Workspaces und vergleicht sie mit den KI-OS-Projektstubs:</p>
+
+    <pre><code>$ bash scripts/sync-brain.sh
+
+=== KI OS Sync Check ===
+
+OK     webshop-relaunch   &mdash; gelb/45%
+OK     api-backend        &mdash; gruen/90%
+DRIFT  iot-dashboard      &mdash; Workspace: gruen/70% | Brain: gelb/30%
+       Workspace sagt: MQTT-Bridge konfigurieren
+OK     dokumentation      &mdash; gruen/100%
+
+1 Abweichung(en) gefunden &mdash; KI OS Stubs aktualisieren.</code></pre>
+
+    <h3>Was das Script macht</h3>
+
+    <ol class="step-list">
+      <li>Iteriert ueber alle Workspace-Verzeichnisse und sucht <code>status.yaml</code></li>
+      <li>Parsed die YAML-Felder (status, fortschritt, letztes-update) mit Standard-Shell-Tools</li>
+      <li>Findet den passenden KI-OS-Stub ueber das <code>projekt:</code>-Feld im YAML-Frontmatter</li>
+      <li>Vergleicht Workspace-Status mit Stub-Status</li>
+      <li>Gibt <code>OK</code> (synchron) oder <code>DRIFT</code> (abweichend) pro Projekt aus</li>
+    </ol>
+
+    <div class="info-box">
+      <strong>Kein externer Parser noetig:</strong> Das Script verwendet nur <code>grep</code>, <code>awk</code> und <code>head</code> &mdash; funktioniert auf jedem Unix-System ohne Python oder yq.
+    </div>
+
+    <!-- MECHANISMUS 3: GIT-PIPELINE -->
+    <h2 id="git-pipeline">Mechanismus 3: Git-Pipeline (KI OS nach GitHub)</h2>
+
+    <p>Das KI OS liegt als privates GitHub-Repository. Jede Session-Beendigung (<code>/shutdown</code>) fuehrt automatisch drei Schritte aus:</p>
+
+    <ol class="step-list">
+      <li><code>git add -A</code> &mdash; alle Aenderungen im Vault stagen</li>
+      <li><code>git commit</code> &mdash; mit Zusammenfassung der Session als Nachricht (nur wenn Aenderungen vorhanden)</li>
+      <li><code>git push</code> &mdash; zum privaten GitHub-Repository</li>
+    </ol>
+
+    <h3>Warum Git und nicht Cloud-Sync?</h3>
+
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Git-Vorteile</h4>
+        <ul>
+          <li>Vollstaendige Versionshistorie aller Aenderungen</li>
+          <li>Diff-basiert: nur Aenderungen werden uebertragen</li>
+          <li>Deploy-Keys ermoeglichen granularen Zugriff (read-only moeglich)</li>
+          <li>Standard-Tooling, kein proprietaerer Sync-Client</li>
+          <li>Funktioniert offline, synchronisiert bei Verbindung</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cloud-Sync-Nachteile</h4>
+        <ul>
+          <li>Keine Versionshistorie (nur aktueller Stand)</li>
+          <li>Sync-Konflikte bei gleichzeitigem Zugriff</li>
+          <li>Abhaengigkeit von proprietaerem Client (Google Drive, iCloud)</li>
+          <li>Kein granularer Zugriff fuer Server (alles oder nichts)</li>
+          <li>Latenz: Cloud-Sync kann Minuten dauern</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- MECHANISMUS 4: SERVER-SYNC -->
+    <h2 id="server-sync">Mechanismus 4: Server-Sync (Cron-Pull)</h2>
+
+    <p>Ein Automatisierungsserver (z.B. mit n8n, Home Assistant oder einem einfachen Linux-Server) zieht das KI OS regelmaessig von GitHub:</p>
+
+    <h3>Einrichtung</h3>
+
+    <ol class="step-list">
+      <li><strong>Deploy-Key generieren:</strong> SSH-Schluessel am Server erzeugen (<code>ssh-keygen -t ed25519</code>)</li>
+      <li><strong>Deploy-Key bei GitHub hinterlegen:</strong> Oeffentlichen Schluessel als Read-Only Deploy-Key im Repository eintragen</li>
+      <li><strong>SSH-Config:</strong> Host-Alias anlegen, der den Deploy-Key fuer github.com verwendet</li>
+      <li><strong>Clone:</strong> Repository am Server klonen (einmalig)</li>
+      <li><strong>Cron-Job:</strong> Alle 15 Minuten <code>git pull --ff-only</code> ausfuehren</li>
+    </ol>
+
+    <h3>Sync-Script am Server</h3>
+
+    <pre><code>#!/usr/bin/env bash
+# Cron: */15 * * * *
+set -euo pipefail
+
+cd "$HOME/server/inbox/ki-os"
+OUTPUT=$(git pull --ff-only 2>&amp;1)
+
+# Nur loggen wenn neue Commits ankommen
+if ! echo "$OUTPUT" | grep -q "Already up to date"; then
+    COMMITS=$(echo "$OUTPUT" | grep -c "^ " || true)
+    echo "{\"ts\":\"$(date -u +%FT%TZ)\",\"type\":\"ki-os-sync\",\"commits\":$COMMITS}" &gt;&gt; events.jsonl
+fi</code></pre>
+
+    <div class="success-box">
+      <strong>Ergebnis:</strong> Der Server hat innerhalb von maximal 15 Minuten nach einem <code>/shutdown</code> den aktuellen KI-OS-Stand. Workflows koennen auf Projektdaten zugreifen, Dashboards koennen Ampeln anzeigen, Alerts koennen auf Statusaenderungen reagieren.
+    </div>
+
+    <!-- SESSION-START -->
+    <h2 id="session-start">Ablauf: Session starten</h2>
+
+    <p>Beim Start einer KI-OS-Session (z.B. mit dem Befehl <code>/start</code>) laeuft automatisch folgender Ablauf:</p>
+
+    <div class="modul-card">
+      <div class="modul-header">
+        <div class="modul-title">/start &mdash; Automatischer Ablauf</div>
+        <div class="modul-badge">7 Schritte</div>
+      </div>
+      <div class="modul-body">
+        <ul class="lektion-list">
+          <li><div class="lektion-num">01</div><div class="lektion-text"><strong>Workspace-Sync pruefen</strong><span class="lektion-desc"><code>sync-brain.sh</code> ausfuehren. Bei Abweichungen: KI OS Stubs automatisch aktualisieren, committen, pushen.</span></div></li>
+          <li><div class="lektion-num">02</div><div class="lektion-text"><strong>Kontext laden</strong><span class="lektion-desc">Persoenliches Profil und Geschaeftsstrategie aus dem Vault lesen.</span></div></li>
+          <li><div class="lektion-num">03</div><div class="lektion-text"><strong>Prioritaeten laden</strong><span class="lektion-desc">Aktuelle Wochenprioritaeten und offene Aufgaben.</span></div></li>
+          <li><div class="lektion-num">04</div><div class="lektion-text"><strong>Open Loops pruefen</strong><span class="lektion-desc">Wartende Aufgaben und offene Entscheidungen. Loops aelter als 2 Wochen werden markiert.</span></div></li>
+          <li><div class="lektion-num">05</div><div class="lektion-text"><strong>Inbox pruefen</strong><span class="lektion-desc">Ungefilterte Notizen und Ideen, die noch eingeordnet werden muessen.</span></div></li>
+          <li><div class="lektion-num">06</div><div class="lektion-text"><strong>Letzte Daily Logs lesen</strong><span class="lektion-desc">Die letzten 2 Tages-Protokolle fuer Kontext zur aktuellen Arbeit.</span></div></li>
+          <li><div class="lektion-num">07</div><div class="lektion-text"><strong>Dashboard anzeigen</strong><span class="lektion-desc">Kompakte Uebersicht: Top 3 Prioritaeten, Open Loops, Inbox-Stand.</span></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="note-box">
+      <strong>Entscheidend ist Schritt 1:</strong> Bevor irgendein Kontext angezeigt wird, werden die Workspaces abgeglichen. So arbeitet das KI OS immer mit dem tatsaechlichen Stand &mdash; nicht mit dem, was es zuletzt gespeichert hat.
+    </div>
+
+    <!-- ARBEITEN -->
+    <h2 id="arbeiten">Ablauf: Im Workspace arbeiten</h2>
+
+    <p>Waehrend der Arbeit in einem Workspace passiert nichts Besonderes in Bezug auf den Sync. Die <code>status.yaml</code> wird erst am Ende aktualisiert. Der KI-Assistent:</p>
+
+    <ul class="content-list">
+      <li>Arbeitet ausschliesslich im Workspace-Verzeichnis</li>
+      <li>Fuehrt Aufgaben aus, erstellt Dateien, aendert Konfigurationen</li>
+      <li>Committet und pusht Aenderungen im Workspace (normaler Git-Workflow)</li>
+      <li>Aktualisiert <code>status.yaml</code> am Ende der Session mit dem neuen Stand</li>
+    </ul>
+
+    <h3>Beispiel: status.yaml vor und nach einer Session</h3>
+
+    <div class="hw-grid-2">
+      <div class="hw-card warn">
+        <h4>Vor der Session</h4>
+        <ul>
+          <li>status: gelb</li>
+          <li>fortschritt: 45</li>
+          <li>naechster-schritt: "Payment testen"</li>
+          <li>Payment-Integration: gelb</li>
+        </ul>
+      </div>
+      <div class="hw-card emp">
+        <h4>Nach der Session</h4>
+        <ul>
+          <li>status: gruen</li>
+          <li>fortschritt: 70</li>
+          <li>naechster-schritt: "Staging-Deploy"</li>
+          <li>Payment-Integration: gruen</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SESSION-ENDE -->
+    <h2 id="session-ende">Ablauf: Session beenden</h2>
+
+    <p>Der <code>/shutdown</code>-Befehl im KI OS fuehrt den vollstaendigen Abschluss durch:</p>
+
+    <ol class="step-list">
+      <li>Prioritaeten und Open Loops aktualisieren</li>
+      <li>Ampel-Vorschlag pro beruehrtem Projekt (der Anwender bestaetigt oder korrigiert)</li>
+      <li>Daily Log schreiben (was passiert ist, Entscheidungen, naechste Session)</li>
+      <li>Lernprotokoll ergaenzen (falls Korrekturen in der Session stattfanden)</li>
+      <li><strong><code>git add -A</code>, <code>git commit</code>, <code>git push</code></strong> &mdash; KI OS geht nach GitHub</li>
+    </ol>
+
+    <div class="success-box">
+      <strong>Geschlossener Kreislauf:</strong> Nach dem Shutdown ist alles gesichert. Der Server holt sich den neuen Stand innerhalb von 15 Minuten. Die naechste <code>/start</code>-Session beginnt mit aktuellem Wissen.
+    </div>
+
+    <!-- VORHER / NACHHER -->
+    <h2 id="vorher-nachher">Vorher / Nachher</h2>
+
+    <div class="pros-cons">
+      <div class="cons">
+        <h4>Ohne Sync-Architektur</h4>
+        <ul>
+          <li>KI OS driftet nach jeder Workspace-Session weiter ab</li>
+          <li>/start zeigt veraltete Informationen</li>
+          <li>Manuelles Nachpflegen noetig (wird vergessen)</li>
+          <li>Server hat keinen Zugriff auf Projektdaten</li>
+          <li>Vertrauen in die Statusanzeige geht verloren</li>
+        </ul>
+      </div>
+      <div class="pros">
+        <h4>Mit Sync-Architektur</h4>
+        <ul>
+          <li>KI OS gleicht sich automatisch ab beim naechsten /start</li>
+          <li>Dashboard zeigt immer den echten Stand</li>
+          <li>Kein manuelles Nachpflegen noetig</li>
+          <li>Server hat binnen 15 Minuten aktuelle Daten</li>
+          <li>Versionierte History aller Zustandsaenderungen</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- GLOSSAR -->
+    <h2 id="glossar">Glossar</h2>
+
+    <div class="begriffe-grid">
+      <div class="begriff-card">
+        <div class="term">KI OS</div>
+        <div class="def">Das zentrale Wissenssystem (Obsidian Vault) mit Strategie, Projektstubs, Daily Logs und Entscheidungen.</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Workspace</div>
+        <div class="def">Einzelnes Projektverzeichnis mit Code, Konfiguration und Dokumentation. Hier wird die eigentliche Arbeit erledigt.</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Projekt-Stub</div>
+        <div class="def">README.md mit YAML-Frontmatter im KI OS, die den Status eines Projekts zusammenfasst (Ampel, Fortschritt, naechster Schritt).</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">status.yaml</div>
+        <div class="def">Datei im Workspace-Root, die den aktuellen Projektstatus maschinenlesbar abbildet. Single Source of Truth.</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Drift</div>
+        <div class="def">Zustand, in dem der KI-OS-Stub und der tatsaechliche Workspace-Status voneinander abweichen.</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Deploy-Key</div>
+        <div class="def">SSH-Schluessel, der einem Server Zugriff auf ein spezifisches GitHub-Repository gibt (read-only oder read-write).</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Ampel-System</div>
+        <div class="def">Farbcodierung fuer Projektstatus: rot (Blocker), gelb (in Arbeit), gruen (laeuft/fertig).</div>
+      </div>
+      <div class="begriff-card">
+        <div class="term">Fast-Forward Pull</div>
+        <div class="def"><code>git pull --ff-only</code> &mdash; akzeptiert nur neue Commits, bricht bei Konflikten ab. Sicherster Pull-Modus.</div>
+      </div>
+    </div>
+
+    <!-- ZUSAMMENFASSUNG -->
+    <div class="zusammenfassung" id="summary">
+      <h3>Zusammenfassung &mdash; Was du nach dieser Schulung weisst und kannst</h3>
+      <ul>
+        <li>Warum KI OS und Workspaces ohne Sync-Mechanismus auseinanderdriften und wie man das loest</li>
+        <li>Wie <code>status.yaml</code> als Single Source of Truth in jedem Workspace funktioniert</li>
+        <li>Wie <code>sync-brain.sh</code> Abweichungen erkennt und automatisch korrigiert</li>
+        <li>Wie die Git-Pipeline das KI OS versioniert nach GitHub bringt</li>
+        <li>Wie ein Server per Cron-Pull und Deploy-Key immer aktuell bleibt</li>
+        <li>Den vollstaendigen Kreislauf: Workspace-Arbeit, Shutdown, Push, Server-Pull, naechster Start</li>
+      </ul>
+    </div>
+
+  </div><!-- /container -->
+
+  <div class="page-footer">
+    <div class="footer-divider"></div>
+    <div class="footer-inner">
+      <div class="footer-logo"></div>
+      <div class="footer-meta">
+        <strong>&copy; 2026 KI-BBI &mdash; Gerald Kammersberger</strong><br>
+        Erstellt mit KI-Unterstuetzung (Claude Opus 4.6) &middot; Stand: 17. April 2026<br>
+        Alle genannten Produktnamen sind Eigentum ihrer jeweiligen Inhaber.
+      </div>
+    </div>
+    <div class="footer-legal">
+      AI-generated document &middot; No copyright infringement &middot; Created with Claude Opus 4.6
+    </div>
+  </div>
+
+</div><!-- /main -->
+</body>
+</html>
