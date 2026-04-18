@@ -13,9 +13,9 @@ Siehe auch: [[current-priorities]] | [[ich]]
 
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
-| 43 | GitHub-Repo für KI OS anlegen (privat) + `git remote add origin` + `git push -u origin master` | Eigene Aktion | 18.04.2026 | Diese Woche |
+| ~~43~~ | ~~GitHub-Repo für KI OS anlegen + push~~ | ✅ Erledigt 18.04.2026 — github.com/ChristianB275/ki-second-brain | — | — |
 | 44 | status.yaml in allen 5 Workspaces auf echten Stand bringen (Platzhalterwerte ersetzen) | Eigene Aktion — beim nächsten Shutdown je Workspace | 18.04.2026 | Laufend |
-| 45 | Server-Cron einrichten (Mechanismus 4: Deploy-Key, git pull alle 15 Min.) — optional, wenn Server vorhanden | Eigene Aktion | 18.04.2026 | Kein Zeitdruck |
+| ~~45~~ | ~~Server-Cron einrichten (Synology DS1019+)~~ | ✅ Erledigt 18.04.2026 — stündlicher Pull 07:00–23:00 via DSM Aufgabenplaner | — | — |
 
 | ~~1~~ | ~~TDIV Kaufauftrag (100 Anteile) bestätigen~~ | ✅ Ausgeführt 13.04.2026 — 100 St. @ 52,08 € = 5.208 € | — | — |
 | ~~2~~ | ~~XEON-Erlös → FTSE All-World Acc. kaufen~~ | ✅ XEON verkauft 13.04.2026 — 105 St. @ 148,882 € = 15.632,61 € | — | — |

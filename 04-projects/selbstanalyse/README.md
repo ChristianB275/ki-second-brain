@@ -1,9 +1,9 @@
 ---
 projekt: selbstanalyse
-status: gelb
+status: rot
 fortschritt: 10
-letztes-update: 2026-04-13
-naechster-schritt: "Workspace-Kontext aufbauen"
+letztes-update: 2026-04-18
+naechster-schritt: "Workspace aufbauen und Selbstanalyse strukturieren"
 ---
 
 # Selbstanalyse

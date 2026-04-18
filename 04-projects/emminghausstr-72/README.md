@@ -1,9 +1,9 @@
 ---
 projekt: emminghausstr-72
 status: gelb
-fortschritt: 10
-letztes-update: 2026-04-13
-naechster-schritt: "Workspace-Kontext aufbauen, Massnahmenplanung dokumentieren"
+fortschritt: 50
+letztes-update: 2026-04-18
+naechster-schritt: "Massnahmen dokumentieren und weiter ausbauen"
 ---
 
 # Emminghausstr. 72 — Eigenheim

@@ -1,9 +1,9 @@
 ---
 projekt: immobilien-portfolio
 status: gelb
-fortschritt: 10
-letztes-update: 2026-04-13
-naechster-schritt: "Portfolio-Uebersicht und Finanzplanung je Objekt aufbauen"
+fortschritt: 80
+letztes-update: 2026-04-18
+naechster-schritt: "Feinschliff und laufende Aktualisierung"
 ---
 
 # Immobilien-Portfolio
