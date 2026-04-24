@@ -36,9 +36,10 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 - Raisin Festgeld 24.600 € bis 15.05.2026 einzahlen (Loop #4)
 - Depot vollständig dokumentiert 24.04.2026 — Stand [[business]]
 
-### 3. KI-OS Masterclass (Garrit Wilson) *(neu)*
+### 3. KI-OS Masterclass (Garrit Wilson) *(laufend)*
 - Modul 01 abgeschlossen 24.04.2026
 - Ziel: Modul 06 MCPs + 07 Agents + 08 Governance vor Q&A 20.05.2026
+- Nächstes: Modul 02 starten
 - Projekt: [[ki-os-masterclass]]
 
 ---

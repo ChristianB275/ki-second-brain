@@ -1,6 +1,6 @@
 # Business — Immobilien & Kapitalanlagen
 
-> Letzte Aktualisierung: 2026-04-23 (Kurse auf Stand 16:13 Uhr aktualisiert)
+> Letzte Aktualisierung: 2026-04-24 (W77 37m² WE 3: Mieterwechsel Burt → Romanski vollständig dokumentiert; Vertragsdaten eingetragen)
 
 Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vollständige Selbstverwaltung — keine externe Beratung.
 
@@ -32,11 +32,12 @@ Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vol
 
 ---
 
-### 3. Weilburger Str. 77, Usingen — 37 m² Apartment
-- **Art:** Apartment EG, 37 m², Außenstellplatz
+### 3. Weilburger Str. 77, Usingen — 37 m² Apartment (WE 3)
+- **Art:** Apartment EG, 37,16 m², Stellplatz Nr. 35, Terrasse, Kellerraum 3
 - **Baujahr:** 2021 (KfW 40 Plus)
 - **Erwerb:** Notar 11.12.2020, 156.800 € (148.800 + 8.000 Stellplatz)
-- **Kaltmiete:** 650 €/Monat (vermietet bis Überschreibung)
+- **Aktuelle Mieterin:** Beate Burt (geb. 03.08.1985) — seit 01.02.2025; Kaltmiete 530,92 € + 51,05 € Stellplatz + 80 € NK = 581,97 € gesamt (Indexmietvertrag, Erhöhung jeweils 01.02.). Zieht aus zum **31.05.2026**.
+- **Neue Mieterin:** Dana Romanski (geb. 07.07.2004, Prager Str. 13, 64521 Groß-Gerau) — Vertragsunterzeichnung 27.04.2026. Kaltmiete **650 € (inkl. 50 € Stellplatz) + 90 € NK = 740 € gesamt**. Kaution 1.950 €. Mietbeginn **01.07.2026** — vorzeitiger Einzug ab **01.06.2026** möglich (anteilige Miete → kein Leerstand wenn genutzt).
 - **Marktwert:** ~210.000 €
 - **Darlehen:** ~113.840 € (Grundschuld liegt auf Weilburger Str. 85!)
 - **Eigenkapital:** ~96.160 €
