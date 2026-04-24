@@ -95,26 +95,26 @@ Zielbild: Passives Haushaltseinkommen ≥ 6.500 €/Mo aus:
 
 | Position | WKN | Anteile | Kaufkurs | Akt. Kurs | Einstand | Akt. Wert | P&L |
 |----------|-----|---------|----------|-----------|----------|-----------|-----|
-| Corning Incorporated | 850808 | 20 St. | 58,39 € | 144,66 € | 1.168 € | 2.893 € | +1.725 € |
-| Equinor | 675213 | 200 St. | 25,997 € | 32,30 € | 5.199 € | 6.460 € | +1.261 € |
-| Goldsky | A41XQ1 | 250 St. | 1,009 € | 2,26 € | 252 € | 565 € | +313 € |
+| Corning Incorporated | 850808 | 20 St. | 58,39 € | 144,54 € | 1.168 € | 2.891 € | +1.723 € |
+| Equinor | 675213 | 200 St. | 25,99 € | 33,16 € | 5.198 € | 6.632 € | +1.434 € |
+| Goldsky | A41XQ1 | 250 St. | 1,00904 € | 2,54 € | 252 € | 635 € | +383 € |
 
-> Goldsky: 200 St. @ 2,24 € verkauft am 14.04.2026 → Erlös 448 € aktuell im Cash-Bestand (Reinvestition in FTSE All-World Acc. geplant, noch nicht ausgeführt).
+> Goldsky: ursprünglich 450 St. — 200 St. @ 2,24 € verkauft am 14.04.2026 → Erlös 448 € im Cash-Bestand. Restbestand 250 St. bestätigt 24.04.2026.
 
 **ETFs:**
 
 | Position | WKN | Anteile | Kaufkurs | Akt. Kurs | Einstand | Akt. Wert | P&L |
 |----------|-----|---------|----------|-----------|----------|-----------|-----|
-| iShares Dow Jones Global Titans 50 UCITS ETF | 628938 | 22,862 St. | 43,740 € | 101,66 € | 1.000 € | 2.324 € | +1.324 € |
-| iShares NASDAQ 100 UCITS ETF USD Acc | A0YEDL | 3,028 St. | 825,758 € | 1.257,60 € | 2.500 € | 3.808 € | +1.308 € |
-| LNG Global Quality Dividends UCITS ETF USD | A41L70 | 100 St. | 9,499 € | 9,111 € | 950 € | 911 € | −39 € |
-| Amundi MSCI World Information Technology UCITS ETF EUR Acc | LYX0GP | 4,721 St. | 381,308 € | 956,60 € | 1.800 € | 4.516 € | +2.716 € |
-| Amundi Bloomberg Equal Weight Commodity Ex-Agri. UCITS ETF EUR Hedged Acc | LYX0XU | 32,996 St. | 38,350 € | 41,359 € | 1.265 € | 1.365 € | +99 € |
-| VanEck Morningstar Dev. Markets Dividend Leaders UCITS ETF (VDIV) | A2JAHJ | 150 St. | 52,319 € | 52,33 € | 7.848 € | 7.850 € | +2 € |
-| Vanguard S&P 500 UCITS ETF USD Distributing | A1JX53 | 61 St. | 83,697 € | 111,978 € | 5.106 € | 6.831 € | +1.725 € |
-| FTSE All-World Acc. (A2PKXG) — Sparplan | A2PKXG | Start 01.05.2026 | 150 €/1. + 175 €/15. = 325 €/Mo | — | noch keine Anteile | — | — |
+| iShares Dow Jones Global Titans 50 UCITS ETF | 628938 | 22,86211 St. | 43,740495 € | 103,88 € | 1.000 € | 2.375 € | +1.375 € |
+| iShares NASDAQ 100 UCITS ETF USD Acc | A0YEDL | 3,02752 St. | 825,758376 € | 1.313,80 € | 2.500 € | 3.978 € | +1.478 € |
+| L&G Global Quality Dividends UCITS ETF USD | A41L70 | 100 St. | 9,4986 € | 9,051 € | 950 € | 905 € | −45 € |
+| Amundi MSCI World Information Technology UCITS ETF EUR Acc | LYX0GP | 4,7205 St. | 381,308269 € | 1.007,80 € | 1.800 € | 4.757 € | +2.957 € |
+| Amundi Bloomberg Equal Weight Commodity Ex-Agri. UCITS ETF EUR Hedged Acc | LYX0XU | 32,99602 St. | 38,350383 € | 42,4999 € | 1.265 € | 1.402 € | +137 € |
+| VanEck Morningstar Dev. Markets Dividend Leaders UCITS ETF (VDIV) | A2JAHJ | 150 St. | 52,318667 € | 52,48 € | 7.848 € | 7.872 € | +24 € |
+| Vanguard S&P 500 UCITS ETF USD Distributing | A1JX53 | 61 St. | 83,696721 € | 115,378 € | 5.106 € | 7.038 € | +1.932 € |
+| FTSE All-World Acc. (A2PKXG) — Sparplan | A2PKXG | Start 01.05.2026 | 325 €/Mo (150 €/1. + 175 €/15.) | — | noch keine Anteile | — | — |
 
-| **Gesamt ING (bekannte Positionen)** | | | | | **~27.088 €** | **~37.523 €** | **~+10.435 €** |
+| **Gesamt ING** | | | | | **27.087 €** | **38.485 €** | **+11.398 €** |
 
 ### Interactive Brokers (IBKR)-Positionen
 
@@ -130,18 +130,19 @@ Zielbild: Passives Haushaltseinkommen ≥ 6.500 €/Mo aus:
 
 | Position | Anteile | Kaufkurs | Akt. Kurs | Einstand | Akt. Wert | P&L |
 |----------|---------|----------|-----------|----------|-----------|-----|
-| Eurowax Gold II ETC | 45 St. | 144,37 € | 133,64 € | 6.497 € | 6.014 € | −483 € |
-| Taiwan Semiconductor (TSMC) | 9 St. | 281,50 € | 325,00 € | 2.534 € | 2.925 € | +392 € |
-| Uranium Energy | 200 St. | 12,49 € | 11,97 € | 2.498 € | 2.394 € | −104 € |
-| **Gesamt Finanzen.ZERO** | | | | **11.529 €** | **11.333 €** | **−195 €** |
+| Amazon (AMZN) | 10 St. | 214,45 € | 217,10 € | 2.145 € | 2.171 € | +27 € |
+| EUWAX Gold II ETC | 45 St. | 144,37 € | 131,48 € | 6.497 € | 5.917 € | −580 € |
+| Taiwan Semiconductor (TSMC) | 9 St. | 281,50 € | 325,50 € | 2.534 € | 2.930 € | +396 € |
+| Uranium Energy (UEC) | 200 St. | 12,49 € | 12,704 € | 2.498 € | 2.541 € | +43 € |
+| **Gesamt Finanzen.ZERO** | | | | **13.674 €** | **13.559 €** | **−115 €** |
 
 ### Kryptowährungen
 
 | Position | Menge | Kaufkurs | Akt. Kurs | Einstand | Akt. Wert | P&L | Besonderheit |
 |----------|-------|----------|-----------|----------|-----------|-----|-------------|
-| Solana (SOL) | 43,826 SOL | 136,18 € | 70,43 € | 5.969 € | 3.086 € | −2.883 € | Gestaked, ~4,5 %/Jahr Rewards |
-| Bitcoin (BTC) | 0,45235 BTC | ~59.000 € | 62.550 € | ~26.689 € | ~28.295 € | ~+1.606 € | Kaufkurs geschätzt |
-| **Gesamt Krypto** | | | | **~32.658 €** | **~31.381 €** | **~−1.277 €** | |
+| Solana (SOL) | 43,86280632 SOL | 136,18 € | 73,00 € | 5.969 € | 3.203 € | −2.766 € | Gestaked, ~4,5 %/Jahr Rewards |
+| Bitcoin (BTC) | 0,45311515 BTC | ~59.000 € | 66.400 € | ~26.689 € | ~30.087 € | ~+3.398 € | Kaufkurs geschätzt |
+| **Gesamt Krypto** | | | | **~32.658 €** | **~33.290 €** | **~+632 €** | |
 
 ### Edelmetalle physisch
 

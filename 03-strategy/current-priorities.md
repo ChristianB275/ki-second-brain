@@ -1,6 +1,6 @@
-# Aktuelle Prioritäten — KW 16 / 2026-04-13
+# Aktuelle Prioritäten — KW 17 / 2026-04-24
 
-> Letzte Aktualisierung: 2026-04-15
+> Letzte Aktualisierung: 2026-04-24
 
 Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
@@ -14,20 +14,32 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
 ## Kurzfristig (bis Ende April 2026)
 
-### 1. A12-Auswahlverfahren bestehen *(höchste Priorität)*
-- Auswahlverfahren Ende April 2026
-- Zugang zur Qualifikationsphase Nachwuchsführungskraft (~2 Jahre)
+### 1. Eignungsinterview Nachwuchsführungskraft (Zugang zum AQV) *(höchste Priorität)*
+- Eignungsinterview: **20.04.2026** — ob Christian als Nachwuchsführungskraft geeignet ist
+- Bei Eignung: Zugang zur Qualifikationsphase AQV (~2 Jahre) → A12
 - A12 ist möglich, aber nicht garantiert — Base-Case bleibt A11
 - **Upside A12:** +311 €/Mo Pension netto dauerhaft, +350–380 €/Mo aktives Gehalt netto
-- **Vorbereitung: ✅ abgeschlossen 18.04.2026** — alle 10 Fragen + PDF fertig
-- Anlassbeurteilung: Gesamturteil "sehr gut"
-- Projekt: [[a12-auswahlverfahren]]
+- **Vorbereitung: ✅ abgeschlossen 20.04.2026** — Probedurchlauf + Cheatsheet fertig
+- Anlassbeurteilung: Gesamturteil "sehr gut" (Ulf Mielinger, HöMS)
+- **Ergebnis: ✅ ZUGELASSEN zum AQV — 20.04.2026**
+- Feedback McCormack: strukturiertes Vorgehen + Klimagestaltung/intrinsische Motivation als Stärken hervorgehoben
+- Offizielles Schreiben PP Westhessen (McCormack PR) erhalten 24.04.2026: **Eignung als Nachwuchsführungskraft** ✅
+- Angekündigt: gesonderte Nachricht zur **befristeten Umsetzung** — Loop #57
+- **Strategie: Umsetzung vermeiden** — Qualifikationsphase in eigener OE (RVD) anstreben
+  - Argumente: 2 Versetzungen in 6 Monaten, OE praktisch neu
+  - Chance ab Okt. 2026: DSL → PST Usingen, Stellvertreter rückt nach, Vertreterstelle RVD frei
+- Nächster Schritt: Nachricht PP Westhessen abwarten, dann Position aktiv vertreten
+- Projekt: [[AQV-PPWH]]
 
 ### 2. Depot-Umschichtung abschließen *(laufend)*
-- XEON-Erlös (15.632 €) → FTSE All-World Acc. (A2PKXG) kaufen (Auftrag noch ausstehend)
-- TDIV (100 Anteile beauftragt 13.04.2026) → Ausführung 14.04.2026 prüfen
-- Goldsky Teilverkauf (50 %) → FTSE All-World vorbereiten
-- Raisin Festgeld 24.600 € bis 15.05.2026 einzahlen
+- XEON-Erlös + Goldsky-Erlös (16.081 €) → FTSE All-World Acc. (A2PKXG) kaufen — wartet auf Mario Lochner (Loop #40, Deadline ~13.05.)
+- Raisin Festgeld 24.600 € bis 15.05.2026 einzahlen (Loop #4)
+- Depot vollständig dokumentiert 24.04.2026 — Stand [[business]]
+
+### 3. KI-OS Masterclass (Garrit Wilson) *(neu)*
+- Modul 01 abgeschlossen 24.04.2026
+- Ziel: Modul 06 MCPs + 07 Agents + 08 Governance vor Q&A 20.05.2026
+- Projekt: [[ki-os-masterclass]]
 
 ---
 

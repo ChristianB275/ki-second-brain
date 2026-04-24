@@ -1,8 +1,21 @@
 # Projekt: Sanierung Weilburger Str. 85
 
-> Letzte Aktualisierung: 2026-04-14
+> Letzte Aktualisierung: 2026-04-24
 
 Siehe auch: [[business]] | [[current-priorities]] | [[open-loops]]
+
+---
+
+## Grundbuchstatus (Stand 24.04.2026)
+
+Grundbuchauszug vom Amtsgericht Bad Homburg v.d.H. erhalten:
+
+| Abteilung | Änderung |
+|-----------|---------|
+| Abt. 2 | ✅ Gelöscht: lebenslanges Wohnrecht Vater + Rückauflassungsvormerkung |
+| Abt. 3 | ✅ Eingetragen: Grundschuld 12.000 € (KfW-Darlehen) |
+
+Scans + Rechnungen: `08-resources/` (hochgeladen 24.04.2026)
 
 ---
 
@@ -73,8 +86,8 @@ Siehe auch: [[business]] | [[current-priorities]] | [[open-loops]]
 | Aufgabe | Status |
 |---------|--------|
 | Alle Fenster getauscht | ✅ Erledigt |
-| Haustür | ⬜ Offen — bestellt, Lieferung in den nächsten Tagen |
-| Fenster Gäste-WC | ⬜ Offen — hängt an Haustür-Lieferung (gleicher Einbautermin) |
+| Haustür | ✅ Eingebaut 21.04.2026 |
+| Fenster Gäste-WC | ✅ Eingebaut 21.04.2026 |
 
 ### Trockenbau
 
@@ -86,7 +99,7 @@ Siehe auch: [[business]] | [[current-priorities]] | [[open-loops]]
 
 | Aufgabe | Status |
 |---------|--------|
-| Komplettsanierung: Berliner Welle (Eternit, Baujahr 1979) → Betondachziegel schwarz + Dämmung (iSFP) | ⬜ Kein Termin — Start spätestens Mai 2026 |
+| Komplettsanierung: Berliner Welle (Eternit, Baujahr 1979) → Betondachziegel schwarz + Dämmung (iSFP) | ⚠️ Start nicht vor Mitte Mai 2026 — 2 Kranke, Großprojekt Usingen-Merzhausen läuft noch. Terminplanung wird zugeschickt (telefonisch zugesagt 21.04.2026) |
 
 ### Unsinn Bau (Innenausbau + Außen)
 
@@ -125,16 +138,16 @@ Dachboden dämmen + Boden verlegen
     → OG-Studio Fliesenboden rausstemmen
       → OG-Studio weiter sanieren
 
-Haustür-Lieferung
-  → Haustür + Gäste-WC-Fenster montieren (ML Hauselemente)
+~~Haustür-Lieferung
+  → Haustür + Gäste-WC-Fenster montieren (ML Hauselemente)~~ ✅ 21.04.2026
 ```
 
 ---
 
 ## Nächste Schritte
 
-- [ ] Haustür-Lieferung abwarten → ML Hauselemente: Haustür + Gäste-WC-Fenster einbauen
-- [ ] Dachdecker Jung: wartet auf deren Rückmeldung (kein Einfluss, Hoffnung auf zeitnahen Termin)
+- [x] ~~Haustür + Gäste-WC-Fenster eingebaut 21.04.2026 (ML Hauselemente) — alle Fenster + Türen fertig~~
+- [ ] Dachdecker Jung: Terminplanung per Post/E-Mail abwarten — Start nicht vor Mitte Mai (Merzhausen-Projekt muss erst fertig)
 - [ ] Märklin-Teile ausmessen → Dachluke (~80–90 cm) prüfen ob Teile durchpassen
 - [ ] Zaun Altkönigstraße: Höhe entscheiden (1,60 oder 1,80 m), dann Eigenleistung planen
 - [ ] Elektriker Bangert: Termin Sicherungskasten + Anschlussarbeiten (am Ende, kein Blocker)

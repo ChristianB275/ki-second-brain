@@ -1,6 +1,6 @@
 # Business — Immobilien & Kapitalanlagen
 
-> Letzte Aktualisierung: 2026-04-13 (Grundstücke Eschbach + Schmitten ergänzt)
+> Letzte Aktualisierung: 2026-04-23 (Kurse auf Stand 16:13 Uhr aktualisiert)
 
 Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vollständige Selbstverwaltung — keine externe Beratung.
 
@@ -79,18 +79,20 @@ Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vol
 
 ---
 
-## Kapitalanlagen (Stand 17.04.2026)
+## Kapitalanlagen (Stand 23.04.2026, ca. 16:13 Uhr)
 
 | Bereich | Einstand | Akt. Wert | P&L |
 |---------|----------|-----------|-----|
-| Finanzen.ZERO (Euwax, UEC, TSMC, Amazon) | 13.672 € | 13.599 € | −73 € |
-| ING (Aktien & ETFs, inkl. 150 TDIV, 250 Goldsky) | 27.086 € | 37.233 € | +10.147 € |
-| CapTrader (MSFT, ORCL) | 6.603 € | 6.721 € | +118 € |
-| Kryptowährungen (BTC + SOL) | 33.133 € | 32.170 € | −963 € |
-| Edelmetalle physisch | 13.089 € | 44.858 € | +31.769 € |
-| **Gesamt (Wertpapiere/Assets)** | **93.583 €** | **134.581 €** | **+40.998 €** |
+| Finanzen.ZERO (Euwax, UEC, TSMC, Amazon) | 13.672 € | 13.558 € | −114 € |
+| ING (Aktien & ETFs, inkl. 150 TDIV, 250 Goldsky) | 27.087 € | 38.485 € | +11.398 € |
+| CapTrader (MSFT, ORCL) | 6.603 € | 6.718 € | +115 € |
+| Kryptowährungen (BTC + SOL) | 33.133 € | 33.290 € | +157 € |
+| Edelmetalle physisch | 13.089 € | 44.190 € | +31.101 € |
+| **Gesamt (Wertpapiere/Assets)** | **93.584 €** | **136.241 €** | **+42.657 €** |
 
-> Uninvestiertes Cash: XEON-Erlös 15.633 € + Goldsky-Teilverkauf (200 Stk @ 2,24 €) 448 € = 16.081 € — Reinvestition noch offen
+> Uninvestiertes Cash: XEON-Erlös 15.633 € + Goldsky-Teilverkauf (200 Stk @ 2,24 €) 448 € = 16.081 € — Reinvestition noch offen (wartet auf Mario Lochner, Loop #40)
+
+> Kursquellen 23.04.2026 (EUR/USD 1,1698): NASDAQ 100 1.318,00 € · Vanguard S&P 500 115,18 € · Amundi IT 1.017,20 € · Amundi Commodity 42,292 € · Dow Jones Titans 104,36 € · LNG Dividends 9,135 € · TDIV 52,44 € · Corning 147,00 € · Equinor 32,62 € · Goldsky (250 St.) 2,55 € · EUWAX Gold II 131,48 € · TSMC 325,50 € · UEC 12,704 € · Amazon 217,10 € · MSFT 357 € · ORCL 157,40 € · BTC 66.400 € · SOL 73 € · Gold 133 €/g · Silber 66 €/oz
 
 ### Depotstrategie (Akkumulationsphase bis 2038)
 
@@ -179,7 +181,7 @@ Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vol
 | VW Golf 6, 1.4 TFSI, 122 PS, schwarz | 2010 | USI-MD 1 | PKW | Nein | Eigentum | **11/2026** |
 | KTM Super Duke 1290 GT | 2021 | USI-BR 3 | Motorrad | — | Eigentum | prüfen |
 | Böckmann Pferdetransportanhänger | — | USI-BR 1 | zGG 2.400 kg | — | Eigentum | **09/2027** |
-| VW Golf 5 (Finnja) | — | USI-JB 337 | Fahrzeug Finnja — VN Christian, Finnja erstattet Jahresbeitrag HUK-COBURG | Nein | Eigentum Finnja | **03/2026 abgelaufen — Termin 04/2026** |
+| VW Golf 5 (Finnja) | — | USI-JB 337 | Fahrzeug Finnja — VN Christian, Finnja erstattet Jahresbeitrag HUK-COBURG | Nein | Eigentum Finnja | **04/2028** |
 
 ---
 

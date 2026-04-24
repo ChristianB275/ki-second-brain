@@ -11,7 +11,7 @@ naechster-schritt: "Workspace aufbauen und Selbstanalyse strukturieren"
 > Letzte Aktualisierung: 2026-04-13
 > Status: **Aktiv — Workspace im Aufbau**
 
-Siehe auch: [[ich]] | [[a12-auswahlverfahren]]
+Siehe auch: [[ich]] | [[AQV-PPWH]]
 
 ---
 
