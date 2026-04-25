@@ -37,7 +37,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
 | 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken | Nach Flugbuchung | 24.04.2026 | — |
 | 56 | Fiona Auslandsjahr — Auslandskrankenversicherung (Pflicht) über Marius Walz (HanseMerkur Usingen) abschließen. Hat bereits Finnjas Auslandsjahr versichert. Anfrage per WhatsApp gesendet 24.04.2026. Formular C + englische Police an NWSE senden. | Antwort Marius Walz | 24.04.2026 | Zeitnah |
-| 58 | W85 Sanierung — 4. Abschlagsrechnung Daniel Unsinn Bau und Service: **6.188 € brutto** — bis Wochenende bezahlen | Eigene Aktion | 24.04.2026 | **⚠️ Wochenende 26./27.04.2026** |
+| ~~58~~ | ~~W85 Sanierung — 4. Abschlagsrechnung Daniel Unsinn Bau: 6.188 € brutto~~ | ✅ Überwiesen 25.04.2026 | — | — |
 | ~~59~~ | ~~W77 Wohnung 2 — Vermieterbescheinigung für Frau Burt~~ | ✅ Erledigt 24.04.2026 | — | — |
 | 60 | W77 WE 3 (37m²) — Mietvertrag Dana Romanski unterzeichnen. Termin: **Sonntag 27.04.2026, 11:00 Uhr**. Mietbeginn 01.07.2026 — vorzeitiger Einzug ab 01.06.2026 möglich → kein Leerstand wenn genutzt. Kaution 1.950 € einfordern. | Termin Sonntag | 24.04.2026 | **27.04.2026, 11:00 Uhr** |
 | 61 | W77 WE 3 — Kaution Dana Romanski 1.950 € einzahlen lassen (3 Raten möglich: erste Rate mit erster Mietzahlung fällig). Getrennt anlegen (Sparkasse/Bank, 3-monatige Kündigungsfrist). | Nach Vertragsunterzeichnung | 24.04.2026 | Mit Mietbeginn |
