@@ -1,6 +1,6 @@
 # Open Loops
 
-> Letzte Aktualisierung: 2026-04-24 (Loop #56 aktualisiert; Loops #58–60 neu: Unsinn-Rechnung, Vermieterbescheinigung Burt, Mietvertrag Romanski)
+> Letzte Aktualisierung: 2026-04-27 (Loop #62 neu: ING Eigenheim Sondertilgung 01/2027)
 
 Alles was auf Entscheidung, externe Antwort oder Aktion wartet.
 Loops älter als 2 Wochen werden beim Review eskaliert.
@@ -31,16 +31,16 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | 4 | Raisin Festgeld 24.600 € einzahlen | Eigene Aktion | 13.04.2026 | 15.05.2026 |
 | 19 | Praktikum Finnja — Rückmeldung Condor Technik Frankfurt | Condor Technik | 13.04.2026 | — |
 | 20 | Praktikum Finnja — Rückmeldung Lufthansa Technik | Bekannter (LHT-Ingenieur) | 13.04.2026 | — |
-| 21 | Auslandsjahr Fiona — Schulzustimmung Adolf-Reichwein-Schule | Schule | 13.04.2026 | — |
+| 21 | Auslandsjahr Fiona — Schulzustimmung Adolf-Reichwein-Schule. Projekt: [[fiona-auslandsjahr-usa]] | Schule | 13.04.2026 | — |
 | ~~22~~ | ~~Auslandsjahr Fiona — Ort/Schule in USA von NWSE erhalten~~ | ✅ Azle High School, Texas — Schulstart 12.08.2026, Flug nach DFW | — | — |
-| 53 | Fiona Auslandsjahr — Gastfamilie kontaktieren (Anreisedatum abstimmen) | Fiona | 24.04.2026 | **⚠️ 27.04.2026 (72h-Frist)** |
-| 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
-| 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken | Nach Flugbuchung | 24.04.2026 | — |
-| 56 | Fiona Auslandsjahr — Auslandskrankenversicherung (Pflicht) über Marius Walz (HanseMerkur Usingen) abschließen. Hat bereits Finnjas Auslandsjahr versichert. Anfrage per WhatsApp gesendet 24.04.2026. Formular C + englische Police an NWSE senden. | Antwort Marius Walz | 24.04.2026 | Zeitnah |
+| 53 | Fiona Auslandsjahr — Gastfamilie kontaktieren (Anreisedatum abstimmen). E-Mail von Fiona gesendet 27.04.2026. → [[fiona-auslandsjahr-usa]] | Antwort Gastfamilie | 24.04.2026 | — |
+| 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. → [[fiona-auslandsjahr-usa]] | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
+| 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken. → [[fiona-auslandsjahr-usa]] | Nach Flugbuchung | 24.04.2026 | — |
+| 56 | Fiona Auslandsjahr — Auslandskrankenversicherung (Pflicht) über Marius Walz (HanseMerkur Usingen) abschließen. Hat bereits Finnjas Auslandsjahr versichert. Anfrage per WhatsApp gesendet 24.04.2026. Formular C + englische Police an NWSE senden. → [[fiona-auslandsjahr-usa]] | Antwort Marius Walz | 24.04.2026 | Zeitnah |
 | ~~58~~ | ~~W85 Sanierung — 4. Abschlagsrechnung Daniel Unsinn Bau: 6.188 € brutto~~ | ✅ Überwiesen 25.04.2026 | — | — |
 | ~~59~~ | ~~W77 Wohnung 2 — Vermieterbescheinigung für Frau Burt~~ | ✅ Erledigt 24.04.2026 | — | — |
-| 60 | W77 WE 3 (37m²) — Mietvertrag Dana Romanski unterzeichnen. Termin: **Sonntag 27.04.2026, 11:00 Uhr**. Mietbeginn 01.07.2026 — vorzeitiger Einzug ab 01.06.2026 möglich → kein Leerstand wenn genutzt. Kaution 1.950 € einfordern. | Termin Sonntag | 24.04.2026 | **27.04.2026, 11:00 Uhr** |
-| 61 | W77 WE 3 — Kaution Dana Romanski 1.950 € einzahlen lassen (3 Raten möglich: erste Rate mit erster Mietzahlung fällig). Getrennt anlegen (Sparkasse/Bank, 3-monatige Kündigungsfrist). | Nach Vertragsunterzeichnung | 24.04.2026 | Mit Mietbeginn |
+| ~~60~~ | ~~W77 WE 3 (37m²) — Mietvertrag Dana Romanski unterzeichnen~~ | ✅ Unterzeichnet 27.04.2026, 11:00 Uhr | — | — |
+| 61 | W77 WE 3 — Kaution Dana Romanski 1.950 € einzahlen lassen (3 Raten möglich). Getrennt anlegen (Sparkasse/Bank, 3-monatige Kündigungsfrist). Zahlung erwartet Ende Juni bei Einzug. | Dana Romanski | 24.04.2026 | Ende 06/2026 |
 | ~~23~~ | ~~Fiona: letzte Hepatitis-Impfung (Einreise USA) — Arzttermin vereinbaren~~ | ✅ Termin 04.05.2026, Dr. Götte | — | — |
 | 24 | Green Card — Status nach Iran-Krise anfragen (USAGCO / Konsulat) | Eigene Aktion | 13.04.2026 | Mai/Juni 2026 |
 | 5 | Makler-Entscheidung W85 (Vermietung) | Eigene Entscheidung | 13.04.2026 | Vor 07/2026 |
@@ -69,13 +69,14 @@ Siehe auch: [[current-priorities]] | [[ich]]
 
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
+| 62 | ING Eigenheim-Kredit — Sondertilgung 2.500 € im Januar 2027 veranlassen. Restschuld 27.04.2026: 8.640,04 €, Rate 489,58 €/Mo. Erwartung: vollständig getilgt im Laufe 2027 durch laufende Tilgung + Sondertilgung. Falls noch Restbetrag: letzte Sondertilgung Anfang 2028. | Eigene Aktion | 27.04.2026 | **01/2027** |
 | 33 | Batteriespeicher PV-Anlage Emminghausstr. 72 (9,96 kWp, 2017) nachrüsten — AC-gekoppelt, PV-Wechselrichter bleibt. Ziel: **BYD HVS 15.4 kWh** (bei Angebot) + Batterie-Wechselrichter (Goodwe/Sungrow/SMA) + Elektriker. Budget: unter 10.000 €. Eigenverbrauch von ~35 % auf ~75 % steigern. Angebote einholen nach W85-Abschluss. | W85-Abschluss + Angebot abwarten | 14.04.2026 | Nach W85-Fertigstellung |
 | 34 | Nordbalkon Emminghausstr. 72 erneuern — wahrscheinlich Eigenleistung; Finnjas Freund (Schreiner, kurz vor Abschluss) fragen ob er helfen kann | Eigene Aktion | 14.04.2026 | — |
 | 35 | Bodenbeläge Nord- + Südbalkon Emminghausstr. 72: rissig, abdichten + erneuern (Wasserschadensrisiko) — noch kein Handwerker im Blick | Eigene Aktion | 14.04.2026 | ~2027/2028 |
-| 49 | Bad OG (klein) Emminghausstr. 72 sanieren — Ansprechpartner: Thomas Nagel (Ralf Müller GmbH, Heizung/Sanitär, langjährig bekannt über Fußball). Zeitraum: 1–2 Jahre. | Thomas Nagel anfragen wenn Zeitpunkt näher | 21.04.2026 | 2027/2028 |
-| 50 | Bad EG (groß) Emminghausstr. 72 sanieren — erst wenn Finnja ausgezogen ist. Ansprechpartner: Thomas Nagel (Ralf Müller GmbH). | Nach Finnja-Auszug | 21.04.2026 | ~2028+ |
+| 49 | Bad OG (klein) Emminghausstr. 72 sanieren — Ansprechpartner: Thomas Nagell (Ralf Müller GmbH, Heizung/Sanitär, langjährig bekannt über Fußball). Zeitraum: 1–2 Jahre. | Thomas Nagell anfragen wenn Zeitpunkt näher | 21.04.2026 | 2027/2028 |
+| 50 | Bad EG (groß) Emminghausstr. 72 sanieren — erst wenn Finnja ausgezogen ist. Ansprechpartner: Thomas Nagell (Ralf Müller GmbH). | Nach Finnja-Auszug | 21.04.2026 | ~2028+ |
 | 36 | Garagentor Emminghausstr. 72: altes Tor gegen Sektionaltor tauschen — Finanzierung aus W85-Überschuss (Budget-abhängig) | W85-Abschluss + verfügbarer Überschuss | 14.04.2026 | Nach W85-Fertigstellung |
-| 51 | KI-OS Masterclass (Garrit Wilson) — 9 Module. Gestartet 24.04.2026 mit Modul 01. Priorität: Modul 06 MCPs, 07 Agents, 08 Governance. Projektdatei: [[ki-os-masterclass]] | Schrittweise Umsetzung | 23.04.2026 | **20.05.2026 Q&A 19:30 Uhr** |
+| 51 | KI-OS Masterclass (Garrit Wilson) — 9 Module. Modul 01 ✅ 24.04., Modul 02 ✅ 25.04., Modul 03 gestartet 26.04. Priorität: Modul 06 MCPs, 07 Agents, 08 Governance. Projektdatei: [[ki-os-masterclass]] | Schrittweise Umsetzung | 23.04.2026 | **20.05.2026 Q&A 19:30 Uhr** |
 | 52 | KI-OS Q&A live Garrit Wilson — 20.05.2026, 19:30 Uhr, Zoom. Eigene Setup-Fragen zu MCPs, Hooks, Sub-Agents vorbereiten. | Termin vormerken | 23.04.2026 | **20.05.2026** |
 | 48 | Elektriker-Paket Emminghausstr. 72 — alle Jobs in einem Termin: 1) Gartenbeleuchtung ans Netz anschließen. 2) PV-Kabel unter Ziegel verlegen (KV). 3) Zweite Easee Wallbox Garage. 4) Batteriespeicher (erst nach W85). Jobs 1–3 unabhängig beauftragbar. | Christian Bangert (Armin Ott) anrufen Mitte Mai — wenn W85 kurz vor Fertigstellung | 21.04.2026 | **Mitte 05/2026** |
 

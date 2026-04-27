@@ -392,7 +392,7 @@ Vollständige Liste: [[fortbildungen-zertifikate]]
 | Person | Rolle | Kontext |
 |---|---|---|
 | **Marius Walz** | Versicherungsberater — HanseMerkur Agentur, Usingen | Langjähriger Freund, betreut nahezu alle Familienversicherungen. Hat Finnjas Auslandsjahr versichert. Erste Anlaufstelle für Versicherungsfragen. |
-| **Thomas Nagel** | Heizung & Sanitär — Ralf Müller OHG | Früherer Fußballkollege, zuständig für W85 + künftig Emminghausstr. 72 Bäder |
+| **Thomas Nagell** | Heizung & Sanitär — Ralf Müller OHG | Früherer Fußballkollege, zuständig für W85 + künftig Emminghausstr. 72 Bäder |
 | **Christian Bangert** | Elektriker — Armin Ott Elektro | Persönlich bekannt, zuständig für W85 + Emminghausstr. 72 (Wallbox, Gartenbeleuchtung, Batteriespeicher) |
 | **Daniel Unsinn** | Bauaufsicht / Innenausbau — Unsinn Bau | Ehemann von Cousine Anna, koordiniert W85-Sanierung |
 | **Dr. Werner Merkle** | Psychologischer Psychotherapeut, Frankfurt | Therapeut seit 2015, tiefenpsychologisch fundiert |

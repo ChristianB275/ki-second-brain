@@ -70,3 +70,4 @@ Christian Brand — Polizeihauptkommissar (A11, Hessen), verheiratet, 3 Kinder. 
 - **2026-04-13:** Christians Dienststelle ist der **Regionale Verkehrsdienst (RVD) Hochtaunus**, Tagdienst — kein Wechselschichtdienst. Seit 02.02.2026.
 - **2026-04-16:** Christians frühere Dienstgruppenleiterin heißt **Jeannine** Faulborn — nicht Janine. Doppel-N und E am Anfang.
 - **2026-04-16:** Der Wechsel zum RVD Hochtaunus wurde von allen Kollegen mit Verständnis und Unterstützung aufgenommen (Tod beider Eltern). Kein Gegenwind — dieses Beispiel taugt nicht für "alleine mit einer Meinung".
+- **2026-04-26:** Christians Fußballkollege und Handwerker Heizung/Sanitär heißt **Thomas Nagell** — Doppel-L am Schluss. Firma: Ralf Müller OHG.

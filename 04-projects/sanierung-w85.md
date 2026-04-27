@@ -148,7 +148,7 @@ Siehe auch: [[business]] | [[current-priorities]] | [[open-loops]]
 | Endenergieverbrauch | 36.250 kWh/a | 3.100 kWh/a |
 | Heizlast | ~25 kW | ~5 kW (nach Schritt 4) |
 
-**Dokumente:** `iSFP_Brand_Christian.pdf` + `iSFP_Energieberatung_Zusammenfassung.pdf` (Vault-Root, hochgeladen 25.04.2026)
+**Dokumente:** `04-projects/sanierung-w85/belege/bafa-isfp/` → `iSFP_Brand_Christian.pdf`, `iSFP_Energieberatung_Zusammenfassung.pdf`, `iSFP_Umsetzungshilfe_Brand_Christian.pdf`
 
 ---
 
@@ -218,7 +218,7 @@ Scans + Rechnungen: `08-resources/` (hochgeladen 24.04.2026)
 > [!info] Alter Sicherungskasten noch in Betrieb
 > Strom im Haus funktioniert durchgehend. Neuer SK wird am Ende eingebaut — kein Blocker für andere Gewerke.
 
-### Heizung & Sanitär (Ralf Müller OHG / Thomas Nagel)
+### Heizung & Sanitär (Ralf Müller OHG / Thomas Nagell)
 
 | Aufgabe | Status |
 |---------|--------|
@@ -274,6 +274,18 @@ Scans + Rechnungen: `08-resources/` (hochgeladen 24.04.2026)
 | Doppelstabmattenzaun zur Altkönigstraße: 8m Zaun + 1m Eingangstor, Anthrazit, H=1,80m | ⬜ Offen — Eigenleistung geplant. Material ~1.000–1.500 € |
 | Garagentor: altes Tor tauschen gegen Sektionaltor — Angebot Unsinn Bau ausstehend | ⬜ Offen — Angebot abwarten |
 | Garagendecke: erster Meter (Frontbereich) dämmen — Küche liegt direkt darüber | ⬜ Offen |
+
+---
+
+## Belege & Dokumente
+
+Alle Belege unter `04-projects/sanierung-w85/belege/`
+
+| Ordner | Inhalt |
+|--------|--------|
+| `angebote-kvs/` | Unsinn Bau KV, Nagell A25002188, Elektro Ott V2500270-A, Dachdecker Jung 2511013, ML Hauselemente Fenster/Haustür |
+| `rechnungen-abschlaege/` | Unsinn Bau Abschläge 1–4 (RE-0042, 0050, 0063, 0067), Nagell 1. Abschlag (R26008703), ML Hauselemente RE-939, IKEA Küche |
+| `bafa-isfp/` | BAFA Zuwendungsbescheid (BEGPT 94415900), iSFP Brand Christian, iSFP Energieberatung Zusammenfassung, iSFP Umsetzungshilfe, Sennlaub Rechnung RE-2026-0108 |
 
 ---
 

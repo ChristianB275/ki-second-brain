@@ -1,6 +1,6 @@
 # Business — Immobilien & Kapitalanlagen
 
-> Letzte Aktualisierung: 2026-04-24 (W77 37m² WE 3: Mieterwechsel Burt → Romanski vollständig dokumentiert; Vertragsdaten eingetragen)
+> Letzte Aktualisierung: 2026-04-27 (Eigenheim ING Kredit: Sonderzahlung 200k, Restschuld 8.640,04 €)
 
 Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vollständige Selbstverwaltung — keine externe Beratung.
 
@@ -13,8 +13,8 @@ Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vol
 - **Erwerb:** März 2013, 420.000 € inkl. NK
 - **Nutzung:** Selbst genutzt (Familienwohnsitz)
 - **Marktwert:** ~800.000 €
-- **Darlehen:** ~30.549 € (wird abgelöst)
-- **Eigenkapital:** ~769.451 €
+- **Darlehen:** 8.640,04 € Restschuld (Stand 27.04.2026) — nach Sonderzahlung 2.500 €, Tilgung auf 10 % erhöht, neue Rate 489,58 €/Mo ab 30.05.2026. ING lehnte vorzeitige Ablösung ab — läuft jetzt selbsttätig aus.
+- **Eigenkapital:** ~791.360 €
 - **Spekulationsfrist:** abgelaufen + Eigennutzung → jederzeit steuerfrei verkaufbar
 
 ---

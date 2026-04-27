@@ -38,7 +38,9 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
 ### 3. KI-OS Masterclass (Garrit Wilson) *(laufend)*
 - Modul 01 abgeschlossen 24.04.2026
-- Modul 02 gestartet 25.04.2026 — Videos + Setup in Arbeit
+- Modul 02 abgeschlossen 25.04.2026
+- Modul 03 gestartet 26.04.2026 — Video 2, 3, 4 abgeschlossen 27.04.2026
+  - Video 5 (erstes Projekt), 6, 7 + Werkstatt noch offen
 - Ziel: Modul 06 MCPs + 07 Agents + 08 Governance vor Q&A 20.05.2026
 - Projekt: [[ki-os-masterclass]]
 
