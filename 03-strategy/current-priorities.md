@@ -1,6 +1,6 @@
 # Aktuelle Prioritäten — KW 17 / 2026-04-24
 
-> Letzte Aktualisierung: 2026-04-24
+> Letzte Aktualisierung: 2026-04-27
 
 Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
@@ -60,9 +60,10 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 ## Langfristig (laufend)
 
 ### 4. Finanzielle Freiheit 2040 — Depot & Mieteinnahmen aufbauen
-- Depot ≥ 1.000.000 € bis 2039
-- Netto-Mieteinnahmen ≥ 1.500 €/Mo
-- Passives Einkommen ≥ 2.250 €/Mo bis 2038
+- Depot ≥ 900.000 € bis 2039 (Szenario A: ~932k; Szenario B mit W77 48m² Verkauf 2030: ~1.010k)
+- Netto-Mieteinnahmen ≥ 1.100–1.500 €/Mo (nach Indexmietanpassung bis 2040)
+- Passives Einkommen am 31.05.2040: ~7.600–8.000 €/Mo (Basis A11; Upside A12)
+- **Masterplan erstellt 27.04.2026:** [[finanzielle-freiheit]]
 - Projekt: [[finanzielle-freiheit-2040]]
 
 ### 5. Zweites Standbein *(nach 07/2026)*
@@ -76,14 +77,16 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
 | Szenario | Datum | Christians Pension | Haushalt passiv gesamt |
 |----------|-------|-------------------|------------------------|
-| **Base: A11 + Carina Frührente** | **31.05.2040** | **~2.639 €/Mo** | **~6.603 €/Mo** ✓ |
-| Upside: A12 + Carina Frührente | 31.05.2040 | ~2.950 €/Mo | ~6.914 €/Mo ✓✓ |
-| Base: A11 + Carina regulär (2044) | 31.05.2040 | ~2.639 €/Mo | ~5.532 €/Mo ⚠️ |
+| **Base: A11 + Carina Frührente** | **31.05.2040** | **~2.639 €/Mo** | **~7.648 €/Mo** ✓✓ |
+| Upside: A12 + Carina Frührente | 31.05.2040 | ~2.950 €/Mo | ~7.859 €/Mo ✓✓ |
+| Nach Darlehen 2 Ablauf (~2046) | ~2046 | ~2.639 €/Mo | ~8.107 €/Mo ✓✓✓ |
+
+*Detailberechnung mit Indexmiete, JEPI und Darlehen-2-Belastung: [[finanzielle-freiheit]]*
 
 **Entscheidungs-Trigger 2039 für Carinas Frührente:**
-- Depot ≥ 1.000.000 € UND
-- Netto-Mieteinnahmen ≥ 1.500 €/Mo UND
-- Forward-Darlehen W77 2030–2035 gesichert
+- Depot ≥ 900.000 € UND
+- Netto-Mieteinnahmen ≥ 1.100 €/Mo (W85 netto, indexiert) UND
+- Forward-Darlehen W77 48m² 2030–2035 gesichert (falls nicht verkauft)
 
 ---
 

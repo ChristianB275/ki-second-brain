@@ -71,3 +71,6 @@ Christian Brand — Polizeihauptkommissar (A11, Hessen), verheiratet, 3 Kinder. 
 - **2026-04-16:** Christians frühere Dienstgruppenleiterin heißt **Jeannine** Faulborn — nicht Janine. Doppel-N und E am Anfang.
 - **2026-04-16:** Der Wechsel zum RVD Hochtaunus wurde von allen Kollegen mit Verständnis und Unterstützung aufgenommen (Tod beider Eltern). Kein Gegenwind — dieses Beispiel taugt nicht für "alleine mit einer Meinung".
 - **2026-04-26:** Christians Fußballkollege und Handwerker Heizung/Sanitär heißt **Thomas Nagell** — Doppel-L am Schluss. Firma: Ralf Müller OHG.
+- **2026-04-27:** W77 37m² (Bruder): Das Darlehen (Darlehen 2, 458,66 €/Mo) bleibt bei Christian — auch wenn der Bruder die Wohnung unentgeltlich nutzt oder die Mieteinnahmen erhält. Beim Transfer: **−650 €/Mo** Cashflow-Impact (Miete weg, Kredit bleibt). Nie als −191 € rechnen.
+- **2026-04-27:** Alle Mietobjekte (W85, W77 48m², W77 37m²) haben **Indexmietverträge** — Miete steigt automatisch mit dem VPI. Immer in Langfristprojektionen einrechnen als positiver Upside-Faktor.
+- **2026-04-27:** **Alimentationsklage Hessen** (Unteralimentation seit 2013 gerichtlich festgestellt). Christian hat Widerspruch eingelegt. Mögliche Einmalzahlung 0–20k € + dauerhafte Besoldungserhöhung + höhere Pension. In Basisplanung mit 0 ansetzen, aber als Upside immer erwähnen.
