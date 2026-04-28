@@ -1,0 +1,293 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navy: #1a2744;
+  --navy-light: #243158;
+  --gold: #f59e0b;
+  --gold-light: #fbbf24;
+  --white: #ffffff;
+  --gray-light: #f8f9fb;
+  --gray-text: #6b7280;
+  --text: #1f2937;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.6;
+}
+
+/* ── Navigation ── */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--navy);
+  z-index: 100;
+  padding: 0 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 56px;
+  align-items: center;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: var(--gold);
+}
+
+/* ── Sections ── */
+section {
+  padding: 5rem 1.5rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ── Hero ── */
+#hero {
+  background: var(--navy);
+  color: var(--white);
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+#hero .label {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+}
+
+#hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+#hero h1 span {
+  color: var(--gold);
+}
+
+#hero .tagline {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 1.5rem;
+}
+
+#hero .sub {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.05em;
+}
+
+#hero .sub span {
+  margin: 0 0.4rem;
+  color: var(--gold);
+  opacity: 0.7;
+}
+
+/* ── Über mich ── */
+#ueber {
+  background: var(--gray-light);
+}
+
+#ueber h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: var(--navy);
+}
+
+#ueber p {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 680px;
+  margin-bottom: 1rem;
+}
+
+#ueber .highlight {
+  display: inline;
+  background: linear-gradient(120deg, rgba(245,158,11,0.15) 0%, rgba(245,158,11,0.15) 100%);
+  padding: 0 2px;
+}
+
+/* ── Themenbereiche ── */
+#themen {
+  background: var(--white);
+}
+
+#themen h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(26, 39, 68, 0.12);
+  transform: translateY(-2px);
+}
+
+.card .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.92rem;
+  color: var(--gray-text);
+  line-height: 1.55;
+}
+
+.card .tag {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Warum jetzt ── */
+#warum {
+  background: var(--navy);
+  color: var(--white);
+}
+
+#warum h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--gold);
+}
+
+#warum p {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.82);
+  max-width: 680px;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+#warum blockquote {
+  border-left: 3px solid var(--gold);
+  padding-left: 1.25rem;
+  margin-top: 2rem;
+  color: rgba(255,255,255,0.6);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+/* ── Kontakt ── */
+#kontakt {
+  background: var(--gray-light);
+  text-align: center;
+}
+
+#kontakt h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+#kontakt p {
+  color: var(--gray-text);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+#kontakt a.btn {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.9rem 2.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+#kontakt a.btn:hover {
+  background: var(--gold-light);
+}
+
+/* ── Footer ── */
+footer {
+  background: var(--navy);
+  color: rgba(255,255,255,0.4);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  nav ul {
+    gap: 1.2rem;
+  }
+
+  nav a {
+    font-size: 0.82rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

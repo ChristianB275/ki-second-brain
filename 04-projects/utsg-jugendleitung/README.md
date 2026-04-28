@@ -34,3 +34,10 @@ Konzepte, Kommunikation und Verwaltung effizient mit KI-Unterstuetzung erledigen
 - [ ] Jugendkonzept digitalisiert
 - [ ] Trainer-Uebersicht aktuell
 - [ ] Kommunikationsvorlagen erstellt
+
+---
+
+## Pfingstturnier 2026
+
+- **28.04.2026:** Online-Sitzung Jugendleitung — Aufgabenverteilung läuft
+- Konkrete Aufgaben und Verantwortlichkeiten noch einzutragen (nach der Sitzung heute Abend)

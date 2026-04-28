@@ -54,7 +54,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | ~~27~~ | ~~TÜV-Fälligkeit prüfen: Kia Sportage, VW Golf 6, KTM 1290 GT, Böckmann-Anhänger~~ | ✅ Eingetragen in business.md (teilweise — KTM noch offen) | — | — |
 | ~~29~~ | ~~Golf 5 (Finnja) TÜV~~ | ✅ Bestanden 24.04.2026, TÜV Hessen Usingen — gültig bis **04/2028** | — | — |
 | 30 | KTM 1290 GT — TÜV-Datum ermitteln und in business.md nachtragen | Eigene Aktion | 14.04.2026 | — |
-| 32 | Rasenmäher + Mähroboter (Sequenz): ~~1) Elektrorasenmäher von Papa — erstes Mähen erledigt 22.04.2026~~ ✅. ~~3) Sabo 47-4 Seilzug repariert 22.04.2026~~ ✅ (Nieten rausgebohrt, neuer Seilzug eingebaut, Rasen gemäht). Offen: 2) Mäher zu Papa zurückbringen. 4) Gardena Mähroboter installieren + einrichten. | Eigene Aktion | 14.04.2026 | — |
+| 32 | Rasenmäher + Mähroboter (Sequenz): ~~1) Elektrorasenmäher von Papa — erstes Mähen erledigt 22.04.2026~~ ✅. ~~3) Sabo 47-4 Seilzug repariert 22.04.2026~~ ✅ (Nieten rausgebohrt, neuer Seilzug eingebaut, Rasen gemäht). Offen: 2) Mäher zu Papa zurückbringen. 4) Gardena Mähroboter installieren + einrichten → in Bearbeitung 28.04.2026. | Eigene Aktion | 14.04.2026 | — |
 | 42 | Terrasse → Carport: Abdichtung erneuern (Wand wurde in letzten Jahren wiederholt feucht). Platten bereits entfernt — Abdichtungsarbeiten stehen noch aus. | Eigene Aktion | 18.04.2026 | — |
 | 31 | Kia Sportage + VW Golf 6 — TÜV-Termin vereinbaren (fällig 11/2026, Vorlauf ~4 Wochen) | Eigene Aktion | 14.04.2026 | **10/2026** |
 | 39 | Tesla 21" Über-Turbine Felgen: alle 4 verzogen. Schadenschilderung (Frank Thomas) erstellt + per E-Mail übermittelt 20.04.2026. Schadennummer 618-30 26 1054400, Sachbearbeiterin Angelika Rohde. Dokument: [[schadenschilderung-frank-thomas]] | Antwort Versicherung | 20.04.2026 | — |
