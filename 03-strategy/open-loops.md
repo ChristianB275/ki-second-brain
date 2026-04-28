@@ -1,6 +1,6 @@
 # Open Loops
 
-> Letzte Aktualisierung: 2026-04-27 (Loop #62 neu: ING Eigenheim Sondertilgung 01/2027)
+> Letzte Aktualisierung: 2026-04-28 (Loop #53 aktualisiert: Schluter-Antwort eingearbeitet)
 
 Alles was auf Entscheidung, externe Antwort oder Aktion wartet.
 Loops älter als 2 Wochen werden beim Review eskaliert.
@@ -33,7 +33,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | 20 | Praktikum Finnja — Rückmeldung Lufthansa Technik | Bekannter (LHT-Ingenieur) | 13.04.2026 | — |
 | 21 | Auslandsjahr Fiona — Schulzustimmung Adolf-Reichwein-Schule. Projekt: [[fiona-auslandsjahr-usa]] | Schule | 13.04.2026 | — |
 | ~~22~~ | ~~Auslandsjahr Fiona — Ort/Schule in USA von NWSE erhalten~~ | ✅ Azle High School, Texas — Schulstart 12.08.2026, Flug nach DFW | — | — |
-| 53 | Fiona Auslandsjahr — Gastfamilie kontaktieren (Anreisedatum abstimmen). E-Mail von Fiona gesendet 27.04.2026. → [[fiona-auslandsjahr-usa]] | Antwort Gastfamilie | 24.04.2026 | — |
+| 53 | Fiona Auslandsjahr — Nächste Mail an Familie Schluter. Antwort Schluters erhalten 27.04.2026. Offene Punkte für nächste Antwort: 1) konkretes Anreisedatum nennen (Ziel: ca. 28.–30.07. für Volleyball Tryouts 31.07.), 2) Cheerleading Tryouts: Datum + Infos erfragen, 3) Zimmerfarbe Masons Zimmer mitteilen, 4) Reese + Brooke per CC antworten. → [[fiona-auslandsjahr-usa]] | Fiona / Christian | 24.04.2026 | — |
 | 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. → [[fiona-auslandsjahr-usa]] | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
 | 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken. → [[fiona-auslandsjahr-usa]] | Nach Flugbuchung | 24.04.2026 | — |
 | 56 | Fiona Auslandsjahr — Auslandskrankenversicherung (Pflicht) über Marius Walz (HanseMerkur Usingen) abschließen. Hat bereits Finnjas Auslandsjahr versichert. Anfrage per WhatsApp gesendet 24.04.2026. Formular C + englische Police an NWSE senden. → [[fiona-auslandsjahr-usa]] | Antwort Marius Walz | 24.04.2026 | Zeitnah |
