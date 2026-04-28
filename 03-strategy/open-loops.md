@@ -84,6 +84,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
+| 63 | IKEA Küche W85 — Anruf nötig: 1) Obereckschrank in Originalgröße wieder bestellen (neue Rollladenkästen kleiner → kein Konflikt mehr), 2) einen bestellten Teil abbestellen/nicht abholen. Hintergrund: nach Laser-Ausmessung wurde Schrank verkleinert — durch neue Fenster + kleinere Rollladenkästen ist die Originalgröße wieder möglich. | Eigene Aktion | 28.04.2026 | Zeitnah (vor Küchenlieferung) |
 | 9 | Sanierung W85 Fertigstellung — Dachdecker Jung: Start nicht vor Mitte Mai (Krankenstand + Vorprojekt Merzhausen). Terminplanung zugesagt. | Terminplanung Dachdecker Jung | 13.04.2026 | 06/2026 ⚠️ |
 | 10 | Mieter für W85 finden | Makler / Eigeninitiative | 13.04.2026 | 07/2026 |
 | 11 | XEON-Erlös (15.632,61 €) + Goldsky-Erlös (448 €) → FTSE All-World Acc. (A2PKXG) kaufen | Wartet auf Mario Lochner (Loop #40) — Antwort abwarten, dann Kauf | 13.04.2026 | Nach #40 |

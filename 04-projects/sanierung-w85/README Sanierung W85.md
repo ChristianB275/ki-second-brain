@@ -1,9 +1,9 @@
 ---
 projekt: sanierung-w85
 status: gelb
-fortschritt: 70
-letztes-update: 2026-04-17
-naechster-schritt: "Bad OG fertigstellen, Makler-Entscheidung treffen"
+fortschritt: 75
+letztes-update: 2026-04-28
+naechster-schritt: "Bad OG: Decke tapezieren + Lampen (Elektriker). Fliesen + Sanitär durch Unsinnbau + Nagell. IKEA anrufen (Loop #63)."
 ---
 
 # Sanierung Weilburger Str. 85

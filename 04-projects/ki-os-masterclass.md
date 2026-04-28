@@ -339,6 +339,61 @@ Jedes Modul endet mit einer **Werkstatt**:
 
 ---
 
+**Video 6: Fehler vermeiden bei Claude Code**
+
+**Fehler 1 — Die Mammut-Session**
+- Problem: Mehrere unzusammenhängende Aufgaben (Newsletter, Präsentation, Analyse, Tabelle) in einer langen Session hintereinander
+- Konsequenz: Das Kontextfenster füllt sich mit gemischten Informationen — Newsletter-Kontext "verschmutzt" die spätere Analyse
+- Lösung: **Neue Aufgabe = neue Session** (`/clear`) — oder mindestens `/compact` zwischen thematisch getrennten Aufgaben
+- Faustregel: **Eine fokussierte 15-Minuten-Sitzung schlägt eine diffuse 2-Stunden-Sitzung**
+
+**Fehler 2 — Das blinde Durchwinken**
+- Problem: Claude fragt um Erlaubnis — reflexartiges "Allow" ohne zu lesen
+- Der Unterschied zu ChatGPT: dort war der schlimmste Fall ein schlechter Text. Bei Claude Code kann eine Datei überschrieben werden, ein ungewollter Git-Commit entstehen oder ein falscher Bash-Befehl auf dem Rechner ausgeführt werden
+- Lösung:
+  - Berechtigungsprompt lesen und verstehen was dahinter steckt
+  - Diffs anschauen (was wird konkret geändert?)
+  - Bash-Befehle verstehen bevor man sie freigibt
+  - Git als Sicherheitsnetz nutzen — Commits sind rückholbar
+- Grundhaltung: **Du bist der Fahrer. Je mächtiger die Aktion, desto aufmerksamer sein.**
+
+**Fehler 3 — Alles in den Prompt statt in Dateien (Überprompting)**
+- Problem: Gesamten Kontext jedes Mal neu in den Prompt schreiben — wie bei ChatGPT, wo das nötig war
+- Bei Claude Code ist das kontraproduktiv: alles was wiederkehrt (Hintergrundwissen, Entscheidungsgrundlagen, Rolle, Stil) gehört in Dateien
+- Lösung: **`CLAUDE.md` einmalig anlegen** mit Rolle, Kontext und Regeln — Claude liest das automatisch bei jeder Session
+- Danach reicht ein Mini-Briefing: *"Schreib mir einen Newsletter über Thema X — Hook, 3 Learnings, CTA"*
+- Der Kontext kommt aus der Datei, nicht aus dem Prompt
+
+**Fehler 4 — Zu viel auf einmal verlangen**
+- Problem: Claude verführt durch seine Mächtigkeit dazu, riesige Aufgaben auf einmal zu stellen — das Ergebnis wird dünn auf mehreren Ebenen
+- Lösung: **Konzeptionell in Phasen arbeiten**
+  - Ausgangspunkt: Problem klar beschreiben + relevante Dateien als Hintergrundwissen bereitstellen
+  - Ziel: Lösungsideal benennen — der Weg dorthin ist erst mal offen
+  - Vorgehen: Aufgabe in kleine Teile/Phasen unterteilen
+  - Phase 1: Grundstruktur + Basisdaten erarbeiten → prüfen
+  - Phase 2: Nächsten Baustein draufsetzen → prüfen
+  - Weiter Stück für Stück — nicht alles auf einmal abgeben
+- Bild: Von einem bekannten Problem zu einem unbekannten Lösungsweg — Schritt für Schritt durch einzelne Glieder einer Kette
+
+**Was stattdessen zu tun ist — die 4 Grundprinzipien**
+
+1. **Kontext liefern** — Wichtige Infos in Kontext-Dateien ablegen, zu Sessionstart konkret auf relevante Dateien verweisen
+2. **Plan Mode nutzen** — Bei komplexen Aufgaben erst Zielzustand und Umsetzungsplan erstellen lassen, dann freigeben. Bei einfachen Fragen direkt loslegen.
+3. **Iterieren** — Schnell eine erste Version erstellen, Feedback geben, bis zum Meilenstein arbeiten, dann prüfen und weiter verbessern
+4. **Kontext managen** — Merken wann Ergebnisse stagnieren → `/compact` (Ergebnis sichern, Kontext verdichten) oder neue Session mit frischen Augen eröffnen
+
+**Fazit Video 6 — Die drei Kernfragen vor jeder Session**
+
+> Die Kunst ist nicht, Claude Code in allen Feinheiten perfekt zu beherrschen. Es sind drei Fragen, die zu Beginn jeder Session gestellt werden müssen.
+
+Analogie: Was muss bereit sein, wenn ich den Schlüssel im Zündschloss des Ferraris umdrehe — damit der Motor startet und ich von A nach B fahren kann?
+
+1. **Welche Informationen müssen da sein?** — Kontext bereitstellen bevor die Session startet
+2. **Wann lasse ich das System frei laufen?** — Vollgas durch das Problem, Claude sucht selbst Lösungen
+3. **Wann steuere ich bewusst Schritt für Schritt?** — Jeden Meilenstein einzeln anfahren, intensiv iterieren
+
+---
+
 ## Zeitplan (Ziel: fertig vor 20.05.2026)
 
 26 Tage bis Q&A — grobe Orientierung: ~3 Tage pro Modul.
