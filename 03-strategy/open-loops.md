@@ -1,6 +1,6 @@
 # Open Loops
 
-> Letzte Aktualisierung: 2026-04-29 (Loop #53 aktualisiert: Fionas Antworten gesendet; Loop #64 neu: NWSE Rechnungskorrektur + KV-Entscheidung)
+> Letzte Aktualisierung: 2026-04-29 (Loop #53+64 Fiona/NWSE; Loop #65 neu: Erste-Hilfe-Verlängerung 04/2028)
 
 Alles was auf Entscheidung, externe Antwort oder Aktion wartet.
 Loops älter als 2 Wochen werden beim Review eskaliert.
@@ -70,6 +70,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
+| 65 | Erste-Hilfe-Ausbildung Verlängerung — Bescheinigung 29.04.2026 (Johanniter, DGUV Vorschrift 1) gilt 2 Jahre. Auffrischungskurs rechtzeitig beim Dienstherrn (PP Westhessen) anmelden. | Eigene Aktion | 29.04.2026 | **04/2028** |
 | 62 | ING Eigenheim-Kredit — Sondertilgung 2.500 € im Januar 2027 veranlassen. Restschuld 27.04.2026: 8.640,04 €, Rate 489,58 €/Mo. Erwartung: vollständig getilgt im Laufe 2027 durch laufende Tilgung + Sondertilgung. Falls noch Restbetrag: letzte Sondertilgung Anfang 2028. | Eigene Aktion | 27.04.2026 | **01/2027** |
 | 33 | Batteriespeicher PV-Anlage Emminghausstr. 72 (9,96 kWp, 2017) nachrüsten — AC-gekoppelt, PV-Wechselrichter bleibt. Ziel: **BYD HVS 15.4 kWh** (bei Angebot) + Batterie-Wechselrichter (Goodwe/Sungrow/SMA) + Elektriker. Budget: unter 10.000 €. Eigenverbrauch von ~35 % auf ~75 % steigern. Angebote einholen nach W85-Abschluss. | W85-Abschluss + Angebot abwarten | 14.04.2026 | Nach W85-Fertigstellung |
 | 34 | Nordbalkon Emminghausstr. 72 erneuern — wahrscheinlich Eigenleistung; Finnjas Freund (Schreiner, kurz vor Abschluss) fragen ob er helfen kann | Eigene Aktion | 14.04.2026 | — |
