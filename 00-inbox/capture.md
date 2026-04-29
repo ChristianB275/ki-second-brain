@@ -11,11 +11,11 @@ Alles was schnell rein muss — unsortiert, unbewertet. Beim `/review` wird ents
 ## 2026-04-29 — Fiona Austausch USA
 
 - Fiona (Tochter) ist auf Austausch in **Azle, Texas**
-- Gastfamilie: **Farah** (Gastmama)
+- Gastfamilie: **Farrah** (Gastmama), Karl (Gastpapa), Kinder: Mason, Reese, Brooke
 - **Reese** = Gastschwester, Jahrgang 2010 (gleich wie Fiona), gleiche Schule in Azle
 - Fiona hat gestern (28.04.) zwei E-Mails geschrieben:
   1. Antwort an Reese (die ihr geschrieben hatte)
-  2. Antwort an Farah mit den besprochenen Fragen
+  2. Antwort an Farrah mit den besprochenen Fragen
 - Warten auf: Antwort re. **Cheerleading** → danach Hinflug planen
 
 ## 2026-04-29 — NWSE: Krankenversicherung Fiona (dringend)

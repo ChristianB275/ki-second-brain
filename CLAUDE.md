@@ -76,3 +76,4 @@ Christian Brand — Polizeihauptkommissar (A11, Hessen), verheiratet, 3 Kinder. 
 - **2026-04-27:** **Alimentationsklage Hessen** (Unteralimentation seit 2013 gerichtlich festgestellt). Christian hat Widerspruch eingelegt. Mögliche Einmalzahlung 0–20k € + dauerhafte Besoldungserhöhung + höhere Pension. In Basisplanung mit 0 ansetzen, aber als Upside immer erwähnen.
 - **2026-04-28:** W85 Handwerker-Zuständigkeiten: **Thomas Nagell (Ralf Müller OHG)** = nur Sanitär (Rohinstallation, Anschlüsse). **Unsinnbau (Daniel Unsinn)** = alle Innenausbauarbeiten: Fliesen, Verputzen, Streichen, Tapezieren. Nie vermischen.
 - **2026-04-29:** **Fiona** und **Finnja** sind zwei verschiedene Töchter. Fiona macht Auslandsjahr 2026–2027 mit NWSE in Azle, Texas. Finnja hat 2022–2023 bereits ein NWSE-Auslandsjahr absolviert.
+- **2026-04-29:** Fionas Gastfamilie heißt **Schluter**. Gastmutter: **Farrah** (Doppel-R in der Mitte). Gastpapa: **Karl**. Kinder: **Mason**, **Reese**, **Brooke**.
