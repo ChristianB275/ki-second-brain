@@ -186,6 +186,19 @@ Privat geführtes Vermögensportfolio ohne rechtliche Gesellschaftsstruktur. Vol
 
 ---
 
+## Finanzierungspartner
+
+### NASPA — Nassauische Sparkasse (Immobilienfinanzierung W85)
+
+| Name | Funktion | Telefon | E-Mail |
+|------|----------|---------|--------|
+| Zita Plaszczyk | Finanzierungsberaterin, zert. Beraterin priv. Immobilienfinanzierungen (FS), Bankbetriebswirtin | +49 611 364 16011 | zita.plaszczyk@naspa.de |
+| Darya Serpikova | Sparkassen- und Bankfachwirtin (SaHT), zert. Beraterin priv. Immobilienfinanzierung (FS) | +49 611 364 16012 | darya.serpikova@naspa.de |
+
+Fax (beide): +49 611 364 16099
+
+---
+
 ## Steuerliche Situation (Stand ESt-Bescheid 2024)
 
 - **Gemeinsames Bruttoarbeitslohn:** 124.575 € (Christian 77.589 € + Carina 46.986 €)

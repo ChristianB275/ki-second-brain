@@ -51,6 +51,42 @@ Ziel-Kaltmiete: **1.500–1.800 €/Mo** (Indexmietvertrag, VPI-gekoppelt)
 
 ---
 
+## Finanzierungspartner
+
+### NASPA — Ansprechpartnerinnen
+
+| Name | Funktion | Telefon | E-Mail |
+|------|----------|---------|--------|
+| Zita Plaszczyk | Finanzierungsberaterin (FS), Bankbetriebswirtin | +49 611 364 16011 | zita.plaszczyk@naspa.de |
+| Darya Serpikova | Sparkassen- und Bankfachwirtin (SaHT), Beraterin priv. Immobilienfinanzierung (FS) | +49 611 364 16012 | darya.serpikova@naspa.de |
+
+### KfW-Antragsstatus
+
+| Datum | Ereignis |
+|-------|----------|
+| 12.03.2026 | Darya Serpikova bestätigt: Antrag in Vertragserstellung gegeben |
+| 31.03.2026 | Bewilligung Grundschuld (Tgb. Nr. 169/2026 Ortsgericht Usingen) |
+| 14.04.2026 | Grundschuld 12.000 € für NASPA in Grundbuch Usingen Blatt 2916 eingetragen; LNrE 2+3 (Abt. II) gelöscht |
+| 15.04.2026 | Eintragungsbekanntmachung AG Bad Homburg (AZ: US-2916-9, Frau Leferink) erhalten |
+| 29.04.2026 | KfW-Bewilligung / Auszahlung — aktueller Status bei NASPA angefragt |
+| 30.04.2026 | **KfW bewilligt bestätigt** (Plaszczyk): "bereits bewilligt als Darlehensverträge erstellt wurden." Auszahlung möglich sobald: Unterlagen bei NASPA Usingen, Rechnung + unterschriebener Auszahlungsauftrag per Mail an Plaszczyk. |
+| 30.04.2026 | **Telefonat NASPA**: Alle Unterlagen vollständig ✅. Erste Auszahlung mit 1. Teilrechnung ML Hauselemente beantragen — Auszahlungsauftrag ausfüllen + per Mail an Plaszczyk. |
+| 30.04.2026 | **Auszahlungsauftrag + Abschlagsrechnung ML Hauselemente (13.353,31 €) per Mail an Plaszczyk gesendet** — Auszahlung in Bearbeitung. |
+
+**Grundbuchdaten:** Usingen Blatt 2916 | Flurstück: Usingen Flur 62, Flurstück 7760/56 | Grundschuld ohne Brief 12.000 € (15 % Zinsen, 5 % Nebenleistung)
+
+**Dokumente:**
+- `20260415_Grundbuchauszug_US-2916.pdf` — Eintragungsbekanntmachung AG Bad Homburg
+- `20260415_Rechnungen_AG_Bad_Homburg_Grundbuch.pdf` — 2 Rechnungen gesamt 138 €
+
+> [!tip] Gerichtskosten 138 € — **bezahlt** ✓
+> Rechnung 1: X056204302020X — 50,00 € (2x Löschung) — bezahlt
+> Rechnung 2: X056204902023X — 88,00 € (Eintragung Grundpfandrecht + unbegl. Datei) — bezahlt
+
+> [!tip] KfW bewilligt ✅ — Dachdecker Jung (51.859,55 €) ist freigegeben. Auszahlung erfordert: Unterlagen bei NASPA abgeben + Rechnung + Auszahlungsauftrag per Mail an Plaszczyk.
+
+---
+
 ## Nächste Schritte
 
 1. Makler-Entscheidung für Vermietung treffen

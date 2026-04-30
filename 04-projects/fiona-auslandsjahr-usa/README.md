@@ -1,13 +1,13 @@
 ---
 projekt: fiona-auslandsjahr-usa
 status: laufend
-fortschritt: 50%
-naechster-schritt: Ankunftsdatum mit Schluters abstimmen, Kurse auswählen (Deadline 23.07.), Sports Physical beim Arzt (ab 01.06.)
+fortschritt: 60%
+naechster-schritt: DS-2019 unterschreiben (Elternteil), DS-160 ausfüllen, Konsulat-Termin Frankfurt buchen, Draft Farrah abschicken, Flug buchen (Loop #54), Formular C + englische Police an NWSE vorbereiten
 ---
 
 # Projekt: Auslandsjahr Fiona — USA 2026/2027
 
-> Letzte Aktualisierung: 2026-04-27 (Antwort Familie Schluter eingearbeitet: Ankunft, Kurse, Sports Physical, Volleyball, Cheerleading, Zimmer, Reisepläne)
+> Letzte Aktualisierung: 2026-04-30 (HanseMerkur Auslandskrankenversicherung abgeschlossen, Versicherungsschein + AVB abgelegt)
 
 **Programm:** NorthWest Student Exchange (NWSE)
 **Schuljahr:** 2026/2027
@@ -60,9 +60,13 @@ Kursangebot mit Beschreibungen ab Seite 18 (Anhang in der Schluter-Mail). Fiona 
 - **Link:** https://sites.google.com/g.azleisd.net/azlehsvolleyball/tryout-information
 - Fiona hatte Volleyball in der Bewerbung angegeben → Schluters haben explizit darauf hingewiesen
 
-### Cheerleading Tryouts
-- **Datum/Infos:** noch unbekannt — bei Familie Schluter nachfragen
-- Fiona interessiert → Anfrage läuft
+### Cheerleading
+- **Abgehakt ✅** — Tryouts waren bereits im März, Teams sind zusammengestellt. Zudem: Wettkämpfe + Training in den Ferien → Familienreisen nicht möglich. Gemeinsame Entscheidung: kein Cheerleading.
+
+### Turnen / Gymnastics
+- **Plan:** Fiona möchte Turnen als Sportkurs belegen (Gymnastics/PE elective)
+- Hintergrund: Tumbling + Akrobatik durch Tanztraining bei Eintracht Frankfurt — passt gut
+- Anfrage an Farrah läuft (Draft: [[2026-04-29-fiona-an-farrah-ankunft-sport]])
 
 ---
 
@@ -71,7 +75,7 @@ Kursangebot mit Beschreibungen ab Seite 18 (Anhang in der Schluter-Mail). Fiona 
 | | |
 |---|---|
 | **Flughafen** | Dallas Fort Worth International (DFW) |
-| **Empfohlene Ankunft** | Schluters sind flexibel — Volleyball Tryouts 31.07./01.08. → Ankunft idealerweise **ca. 28.–30.07.2026** wenn Fiona mitmachen will |
+| **Geplante Ankunft** | **24.07.2026** — Fiona schlägt Farrah vor (Akklimatisierung vor Schulstart 12.08.) |
 | **Frühest mögliche Einreise** | 14.07.2026 (J1-Visum: max. 29 Tage vor Schulstart) |
 | **Schulende** | 20.05.2027 |
 | **Empfohlene Abreise** | 7–10 Tage nach Schulende = ca. 27.–30.05.2027 |
@@ -96,6 +100,43 @@ Kursangebot mit Beschreibungen ab Seite 18 (Anhang in der Schluter-Mail). Fiona 
 |----------|------|
 | Weihnachten | Pennsylvania (Farrahs Heimat) — Tagesausflüge nach Washington D.C., NYC möglich |
 | Spring Break (März 2027) | Colorado angedacht — oder anderes Ziel nach Fionas Wunsch (Radius 16h von Azle) |
+
+---
+
+## Auslandskrankenversicherung — HanseMerkur
+
+| | |
+|---|---|
+| **Versicherer** | HanseMerkur Reiseversicherung AG |
+| **Tarif** | Young Travel Reise-Krankenversicherung Profi — weltweit inkl. USA/Kanada |
+| **Versicherungsschein Nr.** | 812008821G60018 |
+| **Versicherte Person** | Fiona Brand, geb. 05.09.2010 |
+| **Laufzeit** | 24.07.2026 – 15.06.2027 |
+| **Prämie** | 912,33 EUR (einmalig, SEPA-Lastschrift ING-DiBa) |
+| **Selbstbehalt** | keiner |
+| **Deckungssumme** | unbegrenzt (mind. 100.000 EUR/USD) |
+| **Betreuer** | Marius Walz — marius.walz@hansemerkur.de |
+| **24h-Notruf weltweit** | **+49 40 55557877** |
+| **Schadenmeldung** | reiseleistung@hansemerkur.de · Online: mein-hmrv.de/service/schadenmeldung |
+
+### Wichtigste Leistungen
+
+| Leistung | Erstattung |
+|---|---|
+| Ambulante + stationäre Heilbehandlung | 100 % (keine Höchstgrenze) |
+| Krankenrücktransport inkl. Begleitperson | 100 % |
+| Medikamente + Verbandmittel | 100 % |
+| Zahnarzt (Schmerzbehandlung, Füllungen) | 100 % |
+| COVID-19-Behandlung | 100 % |
+| Such- und Bergungskosten | bis 5.000 EUR |
+| Psychotherapie (nach 6 Mon. Wartezeit) | bis 10 Sitzungen, max. 2.000 EUR |
+| Heimaturlaub in Deutschland | versichert bis 6 Wochen/Jahr |
+
+> [!important] Bei stationärer Aufnahme
+> **VOR** umfänglichen diagnostischen/therapeutischen Maßnahmen unbedingt den **24h-Notruf +49 40 55557877** anrufen — sonst kann Leistungsfreiheit drohen.
+
+> [!warning] Hinweis Versicherungsende
+> Versicherungsschutz endet 15.06.2027. Geplante Abreise ~27.–30.05.2027 — kein Problem. Nur wenn Fiona bis zur gesetzlichen Ausreisefrist (~18.06.2027) bleibt, entstehen 3 Tage ohne Schutz. Verlängerung dann rechtzeitig beantragen.
 
 ---
 
@@ -124,23 +165,49 @@ Kursangebot mit Beschreibungen ab Seite 18 (Anhang in der Schluter-Mail). Fiona 
 | # | Aufgabe | Wartet auf | Deadline | Status |
 |---|---------|-----------|---------|--------|
 | Loop #21 | Schulzustimmung Adolf-Reichwein-Schule | Schule | — | ⬜ offen |
-| Loop #53 | Anreisedatum mit Familie Schluter abstimmen. Fionas Erstkontakt gesendet 27.04.2026 — Antwort erhalten 27.04.2026. Nächste Antwort: konkretes Datum nennen. | Fiona / Christian | — | 🔄 läuft |
+| ~~Loop #53~~ | ~~Anreisedatum + Cheerleading klären~~ | ✅ Erledigt 29.04. — Ankunft 24.07. vorgeschlagen, Cheerleading gestrichen | — | ✅ |
+| Loop #68 | Draft Farrah abschicken: Ankunft 24.07. + kein Cheerleading + Turnen als Sportkurs | Fiona | Zeitnah | ⬜ offen |
 | — | Zimmerfarbe an Schluters mitteilen (Masons Zimmer wird für Fiona neu gestaltet) | Fiona | — | ⬜ offen |
 | — | Kurswahl: Kurse aus Kursangebot auswählen und an Familie Schluter schicken (Registrierung 23.07.) | Fiona | **23.07.2026** | ⬜ offen |
-| — | Sports Physical Form: Arzttermin nach **01.06.2026** vereinbaren — Pflicht für alle Sportarten + voraussichtlich auch Tanz/Theater. Formular von Schluters erhalten. | Arzt | **Vor Anreise** | ⬜ offen |
-| — | Volleyball Tryouts: Entscheiden ob Fiona mitmacht (31.07.–01.08.) → ggf. Ankunftsdatum entsprechend planen | Fiona | — | ⬜ offen |
-| — | Cheerleading Tryouts: Datum + Infos bei Familie Schluter erfragen — Fiona interessiert | Schluters | — | ⬜ offen |
+| — | Sports Physical Form: Arzttermin nach **01.06.2026** vereinbaren — Pflicht für alle Sportarten. Formular von Schluters erhalten. | Arzt | **Vor Anreise** | ⬜ offen |
+| — | Volleyball Tryouts: Entscheiden ob Fiona mitmacht (31.07.–01.08.) | Fiona | — | ⬜ offen |
 | — | Reese + Brooke: E-Mails der Töchter beantworten (kommen separat per CC) | Fiona | — | ⬜ offen |
 | Loop #54 | Flug buchen → DFW — Carina über Condor-Konditionen beauftragen. 1) E-Ticket mit Ticketnummer + 2) Formular D an NWSE | Carina | Vor Anreise | ⬜ offen |
 | Loop #55 | E-Ticket + Formular D an NWSE (zusammen mit Versicherungsunterlagen in einer Mail) | Nach Flugbuchung | — | ⬜ offen |
-| Loop #56 | Auslandskrankenversicherung. **Option A:** NWSE GlobalSecutive (Comfort oder Elite). **Option B:** eigene Versicherung (Marius Walz, HanseMerkur) → Formular C + englische Police. Anfrage WhatsApp an Marius Walz gesendet 24.04. | Entscheidung + Antwort Marius Walz | Zeitnah | 🔄 läuft |
+| ~~Loop #56~~ | ~~Auslandskrankenversicherung~~ | ✅ **HanseMerkur abgeschlossen 30.04.2026** — VS-Nr. 812008821G60018, 912,33 EUR, 24.07.2026–15.06.2027. Noch offen: **Formular C** (NWSE-Nachweis) + englische Police an NWSE mit Loop #55 | — | ✅ |
 | Loop #23 | Letzte Hepatitis-Impfung | ✅ Termin 04.05.2026, Dr. Götte | 04.05.2026 | ✅ |
+| — | **I-901 SEVIS-Gebühr** — $220 bezahlt 29.04.2026, Bestätigung BBB2621171160 | — | — | ✅ |
+| Loop #67 | **J-1 Visum beantragen** — Nächste Schritte: 1) DS-2019 von Elternteil unterschreiben (Fiona noch U16 am Programmstart), 2) DS-160 ausfüllen (ceac.state.gov/genniv), 3) Konsulat Frankfurt Termin buchen (ustraveldocs.com) — Wartezeiten prüfen! | Christian + Fiona | **Vor Abflug** | 🔄 läuft |
 
 ---
 
 ## Dokumente & Korrespondenz
 
+### Visum-Dokumente
+- `dokumente/BrandFiona_ds2019.pdf` — DS-2019 Certificate of Eligibility (Original, muss von Elternteil unterschrieben werden)
+- `dokumente/BrandFiona_i901.pdf` — I-901 SEVIS-Gebühr Zahlungsbestätigung ($220, 29.04.2026, BBB2621171160)
+- `visum-checkliste.pdf` — **Checkliste Visumsantrag** (zum Ausdrucken + Abhaken)
+- `fiona-info-usa.pdf` — **Info-Dokument für Fiona** (zum Durchlesen vor der Reise)
+- `visum-checkliste.md` — Quelldatei Checkliste
+- `fiona-info-usa.md` — Quelldatei Fiona-Info
+
+### NWSE-Dokumente
+- `dokumente/J-1VisaInformation_receipt.pdf` — NWSE J-1 Visa Informationsbroschüre
+- `dokumente/ArrivalProcedures.pdf` — Einreiseverfahren für Austauschschüler
+- `dokumente/DOSLetter.pdf` — Begrüßungsbrief U.S. Department of State
+- `dokumente/DOSBrochure.pdf` — BridgeUSA Exchange Visitor Program Broschüre
+- `dokumente/DOSRegulations.pdf` — Exchange Visitor Program Regelwerk
+- `dokumente/Wilberforce-ENG-100116.pdf` — Wilberforce-Dokument (Infos zum Programm)
+
+### Versicherung
+- `dokumente/Rechnung_Versicherungsschein_812008821G60018.pdf` — HanseMerkur Versicherungsschein + Rechnung (912,33 EUR) + SEPA-Mandat
+- `dokumente/Allgemeine Versicherungsbedingungen.pdf` — HanseMerkur AVB VB-KV2022(B-YT-Out-D)Profi — Leistungsübersicht + Bedingungen
+
+### Sonstige
 - `08-resources/Acceptance Documents_Brand.pdf` — Aufnahmebestätigung + Placement Notification
 - `08-resources/HFApplication_Schluter (s).pdf` — Gastfamilienantrag mit Fotos
+- `Inv_14373_from_NorthWest_Student_Exchange_447331_15248.pdf` — NWSE Rechnung (frühere Version)
+- `dokumente/Inv_14373_from_NorthWest_Student_Exchange_447331_17580.pdf` — NWSE Rechnung (aktuell)
+- `USA Info Sheet 2026-2027 - A4.pdf` — NWSE USA Info Sheet
 - `korrespondenz/2026-04-27-fiona-an-schluter.md` — Fionas Erstkontakt-E-Mail an Familie Schluter
 - `korrespondenz/2026-04-27-schluter-an-fiona.md` — Antwort Familie Schluter (Schulinfos, Sports Physical, Volleyball, Reisen, Zimmer)

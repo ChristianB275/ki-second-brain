@@ -1,6 +1,6 @@
 # Open Loops
 
-> Letzte Aktualisierung: 2026-04-29 (Loop #53+64 Fiona/NWSE; Loop #65 neu: Erste-Hilfe-Verlängerung 04/2028)
+> Letzte Aktualisierung: 2026-04-30 (Loop #56 ✅ HanseMerkur abgeschlossen; Loop #64 entblockt; Loop #69 neu: NWSE Überweisung $8.440 sofort)
 
 Alles was auf Entscheidung, externe Antwort oder Aktion wartet.
 Loops älter als 2 Wochen werden beim Review eskaliert.
@@ -33,11 +33,14 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | 20 | Praktikum Finnja — Rückmeldung Lufthansa Technik | Bekannter (LHT-Ingenieur) | 13.04.2026 | — |
 | 21 | Auslandsjahr Fiona — Schulzustimmung Adolf-Reichwein-Schule. Projekt: [[fiona-auslandsjahr-usa]] | Schule | 13.04.2026 | — |
 | ~~22~~ | ~~Auslandsjahr Fiona — Ort/Schule in USA von NWSE erhalten~~ | ✅ Azle High School, Texas — Schulstart 12.08.2026, Flug nach DFW | — | — |
-| 53 | Fiona Auslandsjahr — Fiona hat am 28.04. geantwortet: Mail an Reese + Mail mit Fragen an Farrah (Gastmama). Offen: Antwort der Gastfamilie zu **Cheerleading Tryouts** (Datum + Infos). → Hinflug-Planung erst nach Cheerleading-Klärung möglich. → [[fiona-auslandsjahr-usa]] | Gastfamilie Schluter | 24.04.2026 | — |
-| 64 | Fiona Auslandsjahr — **NWSE Rechnung #14373 korrigieren + KV-Entscheidung an Katrin Popken (NWSE) melden.** Draft bereit in [[nwse-draft-antwort-katrin-popken-2026-04-29]]. Korrekturen: −$800 (eigene KV) + −$175 Sibling Discount Finnja → neuer Betrag $8.440. Blocked auf Loop #56 (Hanse Merkur). | Antwort Marius Walz (Loop #56) | 29.04.2026 | Zeitnah |
+| ~~53~~ | ~~Fiona Auslandsjahr — Cheerleading Tryouts klären~~ | ✅ Erledigt 29.04.2026 — Tryouts waren März, Teams voll. Cheerleading gestrichen (Ferien-Wettkämpfe → keine Familienreisen). → Turnen als Sportkurs geplant. Ankunft 24.07.2026 vorgeschlagen. | — | — |
+| 69 | Fiona Auslandsjahr — **NWSE Überweisung $8.440** (Payment Due on Receipt — sofort!). Wells Fargo, SWIFT WFBIUS6S, Kto. 6756795549, ABA 121000248. Verwendung: "Fiona Brand, Invoice 14373". Gebühren OUR (Absender trägt alle). EUR ca. 7.213 € (Kurs 30.04.: 1,1703). ⚠️ Vorher prüfen: SEVIS $220 auf Rechnung — bereits direkt gezahlt (BBB2621171160)? → Ggf. bei NWSE klären. → [[fiona-auslandsjahr-usa]] | Eigene Aktion heute | 30.04.2026 | **Sofort** |
+| 68 | Fiona Auslandsjahr — **Draft an Farrah abschicken**: Ankunft 24.07. + kein Cheerleading + Turnen als Sportkurs. Warten auf Bestätigung von Farrah. → [[2026-04-29-fiona-an-farrah-ankunft-sport]] → [[fiona-auslandsjahr-usa]] | Fiona schickt Mail | 29.04.2026 | Zeitnah |
+| 67 | Fiona Auslandsjahr — **J-1 Visum beantragen**. DS-2019 ✅ + I-901 $220 ✅ (BBB2621171160). Offen: 1) DS-2019 unterschreiben (Elternteil, da Fiona U16 am Programmstart), 2) DS-160 ausfüllen (ceac.state.gov/genniv), 3) Konsulat Frankfurt Termin buchen (ustraveldocs.com) — Wartezeiten checken! Checkliste: [[visum-checkliste]] → [[fiona-auslandsjahr-usa]] | Christian + Fiona | 29.04.2026 | **Vor Abflug** |
+| 64 | Fiona Auslandsjahr — **Antwort an Katrin Popken (NWSE) senden**: KV-Entscheidung (HanseMerkur, eigene Versicherung) + Bestätigung Rechnung $8.440. Draft bereit: [[nwse-draft-antwort-katrin-popken-2026-04-29]]. Blocker Loop #56 ✅ gelöst. | Eigene Aktion | 29.04.2026 | Zeitnah |
 | 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. → [[fiona-auslandsjahr-usa]] | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
 | 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken. → [[fiona-auslandsjahr-usa]] | Nach Flugbuchung | 24.04.2026 | — |
-| 56 | Fiona Auslandsjahr — Auslandskrankenversicherung (Pflicht) über Marius Walz (HanseMerkur Usingen) abschließen. Hat bereits Finnjas Auslandsjahr versichert. Anfrage per WhatsApp gesendet 24.04.2026. Formular C + englische Police an NWSE senden. → [[fiona-auslandsjahr-usa]] | Antwort Marius Walz | 24.04.2026 | Zeitnah |
+| ~~56~~ | ~~Fiona Auslandsjahr — Auslandskrankenversicherung~~ | ✅ **HanseMerkur abgeschlossen 30.04.2026** — VS-Nr. 812008821G60018, Young Travel Profi, 912,33 EUR, 24.07.2026–15.06.2027, weltweit inkl. USA/Kanada, kein Selbstbehalt. Noch offen: Formular C + englische Police an NWSE → via Loop #55 nach Flugbuchung. | — | — |
 | ~~58~~ | ~~W85 Sanierung — 4. Abschlagsrechnung Daniel Unsinn Bau: 6.188 € brutto~~ | ✅ Überwiesen 25.04.2026 | — | — |
 | ~~59~~ | ~~W77 Wohnung 2 — Vermieterbescheinigung für Frau Burt~~ | ✅ Erledigt 24.04.2026 | — | — |
 | ~~60~~ | ~~W77 WE 3 (37m²) — Mietvertrag Dana Romanski unterzeichnen~~ | ✅ Unterzeichnet 27.04.2026, 11:00 Uhr | — | — |
@@ -87,7 +90,8 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
 | 63 | IKEA Küche W85 — Anruf nötig: 1) Obereckschrank in Originalgröße wieder bestellen (neue Rollladenkästen kleiner → kein Konflikt mehr), 2) einen bestellten Teil abbestellen/nicht abholen. Hintergrund: nach Laser-Ausmessung wurde Schrank verkleinert — durch neue Fenster + kleinere Rollladenkästen ist die Originalgröße wieder möglich. | Eigene Aktion | 28.04.2026 | Zeitnah (vor Küchenlieferung) |
-| 9 | Sanierung W85 Fertigstellung — Dachdecker Jung: Start nicht vor Mitte Mai (Krankenstand + Vorprojekt Merzhausen). Terminplanung zugesagt. | Terminplanung Dachdecker Jung | 13.04.2026 | 06/2026 ⚠️ |
+| 66 | W85 KfW-Darlehen — **Auszahlungsauftrag + Abschlagsrechnung ML Hauselemente (13.353,31 €) per Mail an Plaszczyk gesendet 30.04.2026 ✅**. Warten auf Auszahlung durch NASPA/KfW. | NASPA Auszahlung | 29.04.2026 | — |
+| 9 | Sanierung W85 Fertigstellung — Dachdecker Jung **bereits beauftragt**, BAFA-Zuwendungsbescheid liegt vor. Start ab Mitte Mai, Terminabstimmung läuft. | Terminabstimmung Dachdecker Jung | 13.04.2026 | 06/2026 ⚠️ |
 | 10 | Mieter für W85 finden | Makler / Eigeninitiative | 13.04.2026 | 07/2026 |
 | 11 | XEON-Erlös (15.632,61 €) + Goldsky-Erlös (448 €) → FTSE All-World Acc. (A2PKXG) kaufen | Wartet auf Mario Lochner (Loop #40) — Antwort abwarten, dann Kauf | 13.04.2026 | Nach #40 |
 
@@ -98,7 +102,7 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | # | Loop | Wartet auf | Seit | Deadline |
 |---|------|-----------|------|---------|
 | 18 | Depot-Strategie klären: beating-beta (aktiv, 399 €/Jahr, Marktverständnis) vs. FTSE All-World Kern-Strategie — Entscheidung welches Modell besser passt | Analyse im anderen Workspace | 13.04.2026 | — |
-| 40 | Mario Lochner (Beating Beta) — Antwort auf Depot-Review + Fragen | Mario Lochner | 15.04.2026 | **~13.05.2026** |
+| ~~40~~ | ~~Mario Lochner (Beating Beta) — Antwort auf Depot-Review + Fragen~~ | ✅ "Roast my Depot" PDF erhalten 30.04.2026 — analysiert + in [[beating-beta-roast-my-depot-2026-04-29]] abgelegt. Kernbefund: 91% Immobilien dominiert, Depot zersplittert, FTSE All-World Kurs bestätigt. → Loop #11 (XEON-Erlös → FTSE) jetzt freigegeben. | — | — |
 
 ---
 

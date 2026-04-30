@@ -1,6 +1,6 @@
 # Aktuelle Prioritäten — KW 17 / 2026-04-24
 
-> Letzte Aktualisierung: 2026-04-27
+> Letzte Aktualisierung: 2026-04-30
 
 Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
@@ -36,7 +36,16 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 - Raisin Festgeld 24.600 € bis 15.05.2026 einzahlen (Loop #4)
 - Depot vollständig dokumentiert 24.04.2026 — Stand [[business]]
 
-### 3. KI-OS Masterclass (Garrit Wilson) *(laufend)*
+### 3. Fiona Auslandsjahr USA — Visum *(neu dringend)*
+- I-901 SEVIS-Gebühr $220 bezahlt ✅ (29.04.2026, BBB2621171160)
+- DS-2019 liegt vor ✅
+- **Auslandskrankenversicherung HanseMerkur abgeschlossen ✅** (30.04.2026) — VS-Nr. 812008821G60018, 912,33 EUR, 24.07.2026–15.06.2027
+- **⚠️ NWSE Rechnung $8.440 überweisen** — Payment Due on Receipt, sofort! (Loop #69). EUR ca. 7.213 € (Kurs 1,1703). Wells Fargo, SWIFT WFBIUS6S, Kto. 6756795549. Verwendung: "Fiona Brand, Invoice 14373". Achtung: SEVIS $220 auf Rechnung prüfen (evtl. Doppelzahlung).
+- **Nächste Schritte (Loop #67):** DS-2019 unterschreiben (Elternteil, Fiona U16) → DS-160 ausfüllen → Konsulat Frankfurt Termin buchen (ustraveldocs.com) — **Wartezeiten checken, bald handeln!**
+- Ankunft 24.07.2026 vorgeschlagen — Farrah-Bestätigung ausstehend (Loop #68)
+- Projekt: [[fiona-auslandsjahr-usa]]
+
+### 4. KI-OS Masterclass (Garrit Wilson) *(laufend)*
 - Modul 01 abgeschlossen 24.04.2026
 - Modul 02 abgeschlossen 25.04.2026
 - Modul 03 gestartet 26.04.2026 — Video 2, 3, 4 abgeschlossen 27.04.2026
@@ -54,6 +63,10 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 - Fertigstellung bis 06/2026
 - Vermietungsstart 01.07.2026
 - Ziel-Kaltmiete: 1.500–1.800 €/Mo (Indexmietvertrag)
+- Budget-Dashboard + Projektplan erstellt 29.04.2026 ✅ — Gesamtkosten bekannt 181.134 € (Ampel: Grün)
+- Dachdecker Jung beauftragt, BAFA Zuwendungsbescheid liegt vor ✅ — Baubeginn ab Mitte Mai
+- KfW-Kreditstatus: Anfrage an NASPA gesendet 29.04.2026 (Loop #66)
+- 5 fehlende KVs einholen (Terrassenbelag, Podest, Garagentor, Zaun, Verkleidung)
 - Makler-Entscheidung für Vermietung treffen
 - Projekt: [[sanierung-w85]]
 
