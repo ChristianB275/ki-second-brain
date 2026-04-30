@@ -1,6 +1,6 @@
 # Christians KI OS
 
-> Letzte Aktualisierung: 2026-04-13
+> Letzte Aktualisierung: 2026-04-30
 
 ## Wer ich bin
 
@@ -78,3 +78,4 @@ Christian Brand — Polizeihauptkommissar (A11, Hessen), verheiratet, 3 Kinder. 
 - **2026-04-29:** **Fiona** und **Finnja** sind zwei verschiedene Töchter. Fiona macht Auslandsjahr 2026–2027 mit NWSE in Azle, Texas. Finnja hat 2022–2023 bereits ein NWSE-Auslandsjahr absolviert.
 - **2026-04-29:** Fionas Gastfamilie heißt **Schluter**. Gastmutter: **Farrah** (Doppel-R in der Mitte). Gastpapa: **Karl**. Kinder: **Mason**, **Reese**, **Brooke**.
 - **2026-04-29:** Fiona ist aktiv bei **Eintracht Frankfurt** (Level One Team, Cheerleading/Dance). Hat sich mit dem Team für die **Cheerleading-Europameisterschaft 2027 in Lissabon** qualifiziert. Trainerin möchte sie trotz USA-Jahr mitnehmen — Plan: in USA durch **Turnen (Gymnastics)** fit bleiben, bei EM 2027 als Tumblerin dabei sein.
+- **2026-04-30:** Christians Kinder heißen **Finnja, Fiona und Leo** — immer in dieser chronologischen Reihenfolge nennen. Leo nie als "meinen Sohn" umschreiben.

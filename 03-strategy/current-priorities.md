@@ -51,7 +51,8 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 - Modul 03 gestartet 26.04.2026 — Video 2, 3, 4 abgeschlossen 27.04.2026
   - Video 5 ✅ 28.04.2026 — Erstes Projekt: statische Landing Page gebaut (Plan Mode geübt)
   - Video 6 ✅ 28.04.2026 — 4 Fehler dokumentiert (Mammut-Session, Durchwinken, Überprompting, zu viel auf einmal) + 4 Gegenprinzipien + Fazit
-  - Video 7 + Werkstatt: offen
+  - Video 7 ✅ 30.04.2026 — "Wenn etwas schiefgeht"
+  - Werkstatt: offen
 - Ziel: Modul 06 MCPs + 07 Agents + 08 Governance vor Q&A 20.05.2026
 - Projekt: [[ki-os-masterclass]]
 
