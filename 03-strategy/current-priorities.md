@@ -38,10 +38,11 @@ Siehe auch: [[ich]] | [[business]] | [[open-loops]]
 
 ### 3. Fiona Auslandsjahr USA — Visum *(neu dringend)*
 - I-901 SEVIS-Gebühr $220 bezahlt ✅ (29.04.2026, BBB2621171160)
-- DS-2019 liegt vor ✅
-- **Auslandskrankenversicherung HanseMerkur abgeschlossen ✅** (30.04.2026) — VS-Nr. 812008821G60018, 912,33 EUR, 24.07.2026–15.06.2027
-- **⚠️ NWSE Rechnung $8.440 überweisen** — Payment Due on Receipt, sofort! (Loop #69). EUR ca. 7.213 € (Kurs 1,1703). Wells Fargo, SWIFT WFBIUS6S, Kto. 6756795549. Verwendung: "Fiona Brand, Invoice 14373". Achtung: SEVIS $220 auf Rechnung prüfen (evtl. Doppelzahlung).
-- **Nächste Schritte (Loop #67):** DS-2019 unterschreiben (Elternteil, Fiona U16) → DS-160 ausfüllen → Konsulat Frankfurt Termin buchen (ustraveldocs.com) — **Wartezeiten checken, bald handeln!**
+- DS-2019 liegt vor ✅, unterschrieben ✅ (30.04.2026, Carina + Christian)
+- Auslandskrankenversicherung HanseMerkur abgeschlossen ✅ (30.04.2026) — VS-Nr. 812008821G60018
+- NWSE Rechnung $8.440 überwiesen ✅ (01.05.2026) — Loop #69 geschlossen
+- DS-160 ausgefüllt ✅ (01.05.2026) — Application ID: **AA00FIB2O3**. Foto fehlt noch (02.05.)
+- **Nächste Schritte (Loop #67):** Foto hochladen → Submit → Konsulat Frankfurt Termin + $185 (ustraveldocs.com). Wartezeit 1 Monat → Termin diese Woche buchen!
 - Ankunft 24.07.2026 vorgeschlagen — Farrah-Bestätigung ausstehend (Loop #68)
 - Projekt: [[fiona-auslandsjahr-usa]]
 

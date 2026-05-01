@@ -1,6 +1,6 @@
 # Open Loops
 
-> Letzte Aktualisierung: 2026-04-30 (Loop #56 ✅ HanseMerkur abgeschlossen; Loop #64 ✅ E-Mail Katrin Popken gesendet; Loop #69 offen: NWSE Überweisung $8.440 sofort)
+> Letzte Aktualisierung: 2026-05-01 (Loop #69 ✅ NWSE Überweisung $8.440 ausgeführt 01.05.2026)
 
 Alles was auf Entscheidung, externe Antwort oder Aktion wartet.
 Loops älter als 2 Wochen werden beim Review eskaliert.
@@ -34,9 +34,9 @@ Siehe auch: [[current-priorities]] | [[ich]]
 | 21 | Auslandsjahr Fiona — Schulzustimmung Adolf-Reichwein-Schule. Projekt: [[fiona-auslandsjahr-usa]] | Schule | 13.04.2026 | — |
 | ~~22~~ | ~~Auslandsjahr Fiona — Ort/Schule in USA von NWSE erhalten~~ | ✅ Azle High School, Texas — Schulstart 12.08.2026, Flug nach DFW | — | — |
 | ~~53~~ | ~~Fiona Auslandsjahr — Cheerleading Tryouts klären~~ | ✅ Erledigt 29.04.2026 — Tryouts waren März, Teams voll. Cheerleading gestrichen (Ferien-Wettkämpfe → keine Familienreisen). → Turnen als Sportkurs geplant. Ankunft 24.07.2026 vorgeschlagen. | — | — |
-| 69 | Fiona Auslandsjahr — **NWSE Überweisung $8.440**. Überweisungslimit hochgesetzt — Freischaltung 01.05.2026. Wells Fargo, SWIFT WFBIUS6S, Kto. 6756795549, ABA 121000248. Verwendung: "Fiona Brand, Invoice 14373". Gebühren OUR. EUR ca. 7.213 € (Kurs 30.04.: 1,1703). → [[fiona-auslandsjahr-usa]] | Eigene Aktion morgen | 30.04.2026 | **01.05.2026** |
+| ~~69~~ | ~~Fiona Auslandsjahr — NWSE Überweisung $8.440~~ | ✅ Überwiesen 01.05.2026 — Beleg: [[2026-05-01-NWSE-Ueberweisung-8440-USD]] in `fiona-auslandsjahr-usa/dokumente/` | — | — |
 | 68 | Fiona Auslandsjahr — **Draft an Farrah abschicken**: Ankunft 24.07. + kein Cheerleading + Turnen als Sportkurs. Warten auf Bestätigung von Farrah. → [[2026-04-29-fiona-an-farrah-ankunft-sport]] → [[fiona-auslandsjahr-usa]] | Fiona schickt Mail | 29.04.2026 | Zeitnah |
-| 67 | Fiona Auslandsjahr — **J-1 Visum beantragen**. DS-2019 ✅ + I-901 $220 ✅ (BBB2621171160). Offen: 1) DS-2019 unterschreiben (Elternteil, da Fiona U16 am Programmstart), 2) DS-160 ausfüllen (ceac.state.gov/genniv), 3) Konsulat Frankfurt Termin buchen (ustraveldocs.com) — Wartezeiten checken! Checkliste: [[visum-checkliste]] → [[fiona-auslandsjahr-usa]] | Christian + Fiona | 29.04.2026 | **Vor Abflug** |
+| 67 | Fiona Auslandsjahr — **J-1 Visum beantragen**. DS-2019 ✅ + I-901 $220 ✅ + DS-2019 unterschrieben ✅ (30.04.2026). Offen: 1) Passfoto (biometrisch, weißer Hintergrund), 2) DS-160 ausfüllen (ceac.state.gov/genniv), 3) Konsulat Frankfurt Termin buchen (ustraveldocs.com, Visumsgebühr $185) — **Wartezeiten dringend prüfen!** Abflug ~24.07.2026. Checkliste: [[visum-checkliste]] → [[fiona-auslandsjahr-usa]] | Christian + Fiona | 29.04.2026 | **Vor Abflug** |
 | ~~64~~ | ~~Fiona Auslandsjahr — Antwort an Katrin Popken (NWSE) senden~~ | ✅ **E-Mail gesendet 30.04.2026** — KV-Entscheidung HanseMerkur mitgeteilt. Katrin Popken hat $800 KV in Rechnung $8.440 bereits berücksichtigt. Noch offen: englische HanseMerkur Police + Formblatt C → wird nachgereicht sobald HanseMerkur zurücksendet (→ via Loop #55 nach Flugbuchung). | — | — |
 | 54 | Fiona Auslandsjahr — Flug buchen nach DFW über Carina (Condor-Mitarbeiterkonditionen). Option A: Kooperationspartner z.B. Lufthansa direkt DFW. Option B: Condor→Seattle + Alaska Airlines→DFW. → [[fiona-auslandsjahr-usa]] | Carina beauftragen | 24.04.2026 | Vor Schulstart 12.08.2026 |
 | 55 | Fiona Auslandsjahr — nach Flugbuchung: E-Ticket + Formular D an NWSE schicken. → [[fiona-auslandsjahr-usa]] | Nach Flugbuchung | 24.04.2026 | — |

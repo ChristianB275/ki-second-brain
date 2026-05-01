@@ -18,9 +18,9 @@
 
 > Da Fiona bei Programmbeginn (20.08.2026) noch 15 Jahre alt ist, muss ein Elternteil unterschreiben.
 
-- [ ] Seite 1 unten: "Exchange Visitor Certification" → **Elternteil unterschreibt** für Fiona
-- [ ] Ort (z.B. "Bad Homburg, Germany") + Datum eintragen
-- [ ] **Nur Original verwenden — keine Kopie**
+- [x] Seite 1 unten: "Exchange Visitor Certification" → **Elternteil unterschreibt** für Fiona — ✅ 30.04.2026 (Carina + Christian)
+- [x] Ort + Datum eingetragen
+- [x] **Nur Original verwenden — keine Kopie**
 
 ---
 
@@ -34,27 +34,35 @@
 ## Schritt 3 — DS-160 Online-Antrag ausfüllen
 
 **Website:** ceac.state.gov/genniv
+**Application ID: AA00FIB2O3** ← immer sichern!
 
-- [ ] DS-160 vollständig ausgefüllt
-- [ ] Application ID gespeichert (nach jeder Seite speichern!)
-- [ ] Passfoto hochgeladen
+- [x] DS-160 ausgefüllt — 01.05.2026
+- [ ] Passfoto hochgeladen — **morgen 02.05.2026** (Foto ohne Brille erforderlich, wird neu gemacht)
 - [ ] **Bestätigungsseite ausgedruckt**
 
 ### Wichtige Eingaben für den DS-160
 
 | Feld | Eintrag |
 |------|---------|
-| Reisezweck | Exchange Visitor (J) → Student (J1) |
-| Ankunftsdatum | ca. 28.–30.07.2026 (oder Flugdatum) |
+| Surname | BRAND |
+| Given Name | FIONA |
+| Date of Birth | 05 Sep 2010 |
+| City of Birth | BAD HOMBURG V.D.H. |
+| Country of Birth | Germany |
+| E-Mail | fiona.brand59@icloud.com |
+| Reisepass | C5M35N86P, Stadt Usingen, 17.11.2025–16.11.2031 |
+| Reisezweck | Exchange Visitor (J) |
+| Ankunftsdatum | 24 Jul 2026 |
 | Aufenthaltsdauer | **10 MONTHS** |
 | US-Adresse | 101 Derby Court, Azle, TX 76020 (Familie Schluter) |
 | Zahler der Reise | **SELF** (= Eltern) |
 | Reisegefährten | Nein |
+| Frühere US-Reisen | Nein |
 | SEVIS ID | **N0037493477** |
 | Programmnummer | **P-3-05374** |
-| Kurs | Academic |
-| Vorherige US-Reisen | alle eintragen |
 | Sicherheitsfragen | alle **NEIN** |
+| Vater | Christian Brand, 27.05.1978 |
+| Mutter | Carina Brand (geb. Barten), 17.01.1977 |
 
 ### US-Kontaktperson (Dennis Broll / NWSE)
 
@@ -68,9 +76,8 @@
 
 ### 2 Kontaktpersonen in Deutschland
 
-- Keine Familienmitglieder — z.B. Nachbarn, Freunde, Bekannte
-- [ ] Person 1: ______________________________
-- [ ] Person 2: ______________________________
+- [x] **Person 1:** Ann-Christin Barten, Maibacher Weg 8, 61250 Usingen-Eschbach, +49 159 04888041, a.-c.barten@web.de
+- [x] **Person 2:** Inge Barten, Uhlandstraße 15, 61250 Usingen-Eschbach, +49 6081 919768 / +49 162 3681230
 
 ---
 
@@ -96,7 +103,7 @@
 - [ ] **DS-2019** — Original, unterschrieben von Elternteil
 - [ ] **DS-160 Bestätigungsseite** — Ausdruck
 - [ ] **I-901 Zahlungsbestätigung** — Ausdruck (Bestätigung BBB2621171160)
-- [ ] **Gültiger Reisepass** — gültig mind. bis 20.12.2027 (6 Monate nach Programmende)
+- [x] **Gültiger Reisepass** — C5M35N86P, Stadt Usingen, ausgestellt 17.11.2025, gültig bis 16.11.2031 ✅
 - [ ] **Terminbestätigung Konsulat** — Ausdruck
 - [ ] **Visumsgebühr-Quittung** — Ausdruck
 
